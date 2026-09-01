@@ -1,0 +1,22 @@
+# Differential-drive controller parameters for the ZMR AMR.
+# These values are taken from the accepted CAD-matched robot geometry.
+# ros2_control hardware/simulation interfaces must be provided separately.
+
+diff_drive_controller:
+  ros__parameters:
+    left_wheel_names: [base_to_left_wheel]
+    right_wheel_names: [base_to_right_wheel]
+    wheel_separation: 0.526
+    wheel_radius: 0.080
+    wheels_per_side: 1
+    wheel_separation_multiplier: 1.0
+    left_wheel_radius_multiplier: 1.0
+    right_wheel_radius_multiplier: 1.0
+    odom_frame_id: odom
+    base_frame_id: base_link
+    position_feedback: true
+    open_loop: false
+    enable_odom_tf: true
+    cmd_vel_timeout: 0.5
+    publish_limited_velocity: true
+    velocity_rolling_window_size: 10

@@ -1,0 +1,4 @@
+# Udev rule to create a persistent /dev/rplidar symlink for Slamtec RPLidar
+# CP2102 USB to UART Bridge (Silicon Labs)
+# Install: sudo cp this_file /etc/udev/rules.d/ && sudo udevadm control --reload-rules && sudo udevadm trigger
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", SYMLINK+="rplidar", MODE="0666"

@@ -1,0 +1,19 @@
+# Geometry values verified from the accepted CAD/URDF model.
+robot:
+  length_m: 1.05
+  width_m: 0.71
+  body_height_m: 0.21
+  drive_wheel_diameter_m: 0.160
+  drive_wheel_radius_m: 0.080
+  drive_wheel_separation_m: 0.526
+  ros_axes:
+    x_forward: true
+    y_left: true
+    z_up: true
+  frames:
+    footprint: base_footprint
+    base: base_link
+    lidar: lidar_link
+  drive_joints:
+    left: base_to_left_wheel
+    right: base_to_right_wheel
