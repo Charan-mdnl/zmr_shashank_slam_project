@@ -1,0 +1,26 @@
+[0.196s] Invoking command in '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo': AMENT_PREFIX_PATH=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/charan/.local/bin/cmake --build /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo -- -j4 -l4
+[2.406s] Invoked command in '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo' returned '0': AMENT_PREFIX_PATH=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/charan/.local/bin/cmake --build /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo -- -j4 -l4
+[3.117s] Invoking command in '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo': AMENT_PREFIX_PATH=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/charan/.local/bin/cmake --install /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo
+[4.207s] -- Install configuration: ""
+[4.223s] -- Execute custom install script
+[4.244s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo//launch/slam_sim.launch.py
+[4.253s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo//worlds/zmr_test_world.world
+[4.260s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo//config/rviz_slam_sim.rviz
+[4.261s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo//config/slam_toolbox_sim.yaml
+[4.266s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo//urdf/zmr_robot_sim.urdf
+[4.278s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/ament_index/resource_index/package_run_dependencies/zmr_gazebo
+[4.287s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/ament_index/resource_index/parent_prefix_path/zmr_gazebo
+[4.289s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/environment/ament_prefix_path.sh
+[4.289s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/environment/ament_prefix_path.dsv
+[4.294s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/environment/path.sh
+[4.296s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/environment/path.dsv
+[4.308s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/local_setup.bash
+[4.319s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/local_setup.sh
+[4.327s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/local_setup.zsh
+[4.328s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/local_setup.dsv
+[4.343s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/package.dsv
+[4.386s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/ament_index/resource_index/packages/zmr_gazebo
+[4.392s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/cmake/zmr_gazeboConfig.cmake
+[4.394s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/cmake/zmr_gazeboConfig-version.cmake
+[4.401s] -- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/package.xml
+[4.426s] Invoked command in '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo' returned '0': AMENT_PREFIX_PATH=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/charan/.local/bin/cmake --install /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo

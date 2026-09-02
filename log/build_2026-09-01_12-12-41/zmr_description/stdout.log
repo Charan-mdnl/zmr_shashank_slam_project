@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/charan/miniforge3/bin/python3 (found version "3.13.12") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/urdf/README.md
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/urdf/zmr_robot.urdf
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_fl-v2_Component3.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_fl-v2_Component4.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_fl-v2_Component5.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_fr-v1_Component3.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_fr-v1_Component4.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_fr-v1_Component5.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_rl-v1_Component3.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_rl-v1_Component4.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_rl-v1_Component5.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_rr-v1_Component3.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_rr-v1_Component4.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/caster_rr-v1_Component5.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_fl-v2_Component3.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_fl-v2_Component4.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_fl-v2_Component5.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_fr-v1_Component3.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_fr-v1_Component4.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_fr-v1_Component5.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_rl-v1_Component3.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_rl-v1_Component4.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_rl-v1_Component5.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_rr-v1_Component3.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_rr-v1_Component4.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/caster_rr-v1_Component5.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/drive_wheel_left-v2.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/drive_wheel_right-v1.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/lidar-v1.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/collision/zmr_body-v2.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/drive_wheel_left-v2.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/drive_wheel_right-v1.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/lidar-v1.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/meshes/zmr_body-v2.stl
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/config/diff_drive_controller.yaml
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/config/robot_geometry.yaml
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/launch/display.launch.py
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/package.xml
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/README.md
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/ament_index/resource_index/package_run_dependencies/zmr_description
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/ament_index/resource_index/parent_prefix_path/zmr_description
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/environment/path.sh
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/environment/path.dsv
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/local_setup.bash
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/local_setup.sh
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/local_setup.zsh
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/local_setup.dsv
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/package.dsv
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/ament_index/resource_index/packages/zmr_description
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/cmake/zmr_descriptionConfig.cmake
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/cmake/zmr_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_description/share/zmr_description/package.xml

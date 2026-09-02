@@ -1,0 +1,547 @@
+[0.000000] (-) TimerEvent: {}
+[0.000215] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000269] (-) JobUnselected: {'identifier': 'zmr_bringup'}
+[0.000314] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.002220] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.012870] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.013470] (rf2o_laser_odometry) Command: {'cmd': ['/home/charan/.local/bin/cmake', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/rf2o_laser_odometry', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry'], 'cwd': '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/rf2o_laser_odometry', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/charan'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('C_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('LANGUAGE', 'en_IN:en'), ('USER', 'charan'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"53f8e2c5-ee3d-472a-9480-67ea11a14894","stepIndex":78,"toolCall":{"id":"toolu_vrtx_019hFyaPykD9oERvAoz2T3aL","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/charan/.gemini/antigravity-ide/scratch/ZMR_project \\\\u0026\\\\u0026 source /opt/ros/humble/setup.bash \\\\u0026\\\\u0026 colcon build --symlink-install --packages-select rf2o_laser_odometry 2\\\\u003e\\\\u00261\\",\\"Cwd\\":\\"/home/charan/.gemini/antigravity-ide/scratch/ZMR_project\\",\\"WaitMsBeforeAsync\\":60000,\\"toolAction\\":\\"Building rf2o_laser_odometry\\",\\"toolSummary\\":\\"Build laser odometry\\"}","originalName":"run_command"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/home/charan/Downloads/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/charan'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-a9e30cac-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/charan/.local/share/applications/antigravity-ide.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1842'), ('SYSTEMD_EXEC_PID', '1989'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/charan/miniforge3'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2646'), ('CPLUS_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'charan'), ('JOURNAL_STREAM', '8:15775'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'charan'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/home/charan/Downloads/Antigravity IDE/resources/app'), ('PATH', '/home/charan/.gemini/antigravity-ide/bin:/home/charan/.local/bin:/home/charan/bin:/home/charan/miniforge3/bin:/home/charan/miniforge3/condabin:/opt/ros/humble/bin:/home/charan/.local/bin:/home/charan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/charan/.local/bin'), ('SESSION_MANAGER', 'local/charan-Lenovo-Z50-70:@/tmp/.ICE-unix/1953,unix/charan-Lenovo-Z50-70:/tmp/.ICE-unix/1953'), ('INVOCATION_ID', '82de39ae38ac424f9ae24e2b5bf201c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('MUJOCO_DIR', '/home/charan/mujoco/mujoco'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('MAMBA_ROOT_PREFIX', '/home/charan/miniforge3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EDDPU3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/charan/miniforge3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/charan/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:36987'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('MAMBA_EXE', '/home/charan/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3802d24b-a860-4f3c-ae55-329f6325772d'), ('PWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/charan/.config/Antigravity IDE/CachedData/4e2e10a9285aefbdcb898ae5e50dde45e9c7f505'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/charan/miniforge3'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', '66817ef9-5bec-46c7-8d0a-e8ec7c70fa70'), ('VSCODE_PID', '2646'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099467] (-) TimerEvent: {}
+[0.133533] (rf2o_laser_odometry) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.133863] (rf2o_laser_odometry) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.134036] (rf2o_laser_odometry) StderrLine: {'line': b'  CMake.\n'}
+[0.134135] (rf2o_laser_odometry) StderrLine: {'line': b'\n'}
+[0.134296] (rf2o_laser_odometry) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.134425] (rf2o_laser_odometry) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.134570] (rf2o_laser_odometry) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.134663] (rf2o_laser_odometry) StderrLine: {'line': b'\n'}
+[0.134736] (rf2o_laser_odometry) StderrLine: {'line': b'\n'}
+[0.199600] (-) TimerEvent: {}
+[0.201357] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299697] (-) TimerEvent: {}
+[0.306950] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.319538] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399815] (-) TimerEvent: {}
+[0.407205] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.433425] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.433948] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.434739] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.455920] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499937] (-) TimerEvent: {}
+[0.554362] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.583021] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.583573] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.584695] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.596094] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600029] (-) TimerEvent: {}
+[0.700397] (-) TimerEvent: {}
+[0.775288] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Python3: /home/charan/miniforge3/bin/python3 (found version "3.13.12") found components: Interpreter\n'}
+[0.800522] (-) TimerEvent: {}
+[0.891077] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.900611] (-) TimerEvent: {}
+[0.941848] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.000721] (-) TimerEvent: {}
+[1.019669] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.026943] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.042858] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.079977] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102765] (-) TimerEvent: {}
+[1.135605] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.204603] (-) TimerEvent: {}
+[1.304967] (-) TimerEvent: {}
+[1.321855] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.331860] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.405110] (-) TimerEvent: {}
+[1.490301] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[1.505206] (-) TimerEvent: {}
+[1.542645] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.605307] (-) TimerEvent: {}
+[1.612890] (rf2o_laser_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.626430] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.705427] (-) TimerEvent: {}
+[1.706130] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.707848] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.805574] (-) TimerEvent: {}
+[1.824837] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.856905] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.892333] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.895612] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0")\n'}
+[1.895845] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.905684] (-) TimerEvent: {}
+[2.006042] (-) TimerEvent: {}
+[2.106552] (-) TimerEvent: {}
+[2.173841] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.206667] (-) TimerEvent: {}
+[2.221356] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.266665] (rf2o_laser_odometry) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:24 (find_package):\n'}
+[2.266854] (rf2o_laser_odometry) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[2.266937] (rf2o_laser_odometry) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[2.267008] (rf2o_laser_odometry) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[2.267076] (rf2o_laser_odometry) StderrLine: {'line': b'\n'}
+[2.267142] (rf2o_laser_odometry) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.267207] (rf2o_laser_odometry) StderrLine: {'line': b'\n'}
+[2.289692] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")\n'}
+[2.306789] (-) TimerEvent: {}
+[2.407108] (-) TimerEvent: {}
+[2.456616] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Configuring done (2.3s)\n'}
+[2.489468] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.494056] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/rf2o_laser_odometry\n'}
+[2.507229] (-) TimerEvent: {}
+[2.509194] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[2.510004] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[2.510924] (rf2o_laser_odometry) Command: {'cmd': ['/home/charan/.local/bin/cmake', '--build', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/rf2o_laser_odometry', '--', '-j4', '-l4'], 'cwd': '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/rf2o_laser_odometry', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/charan'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('C_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('LANGUAGE', 'en_IN:en'), ('USER', 'charan'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"53f8e2c5-ee3d-472a-9480-67ea11a14894","stepIndex":78,"toolCall":{"id":"toolu_vrtx_019hFyaPykD9oERvAoz2T3aL","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/charan/.gemini/antigravity-ide/scratch/ZMR_project \\\\u0026\\\\u0026 source /opt/ros/humble/setup.bash \\\\u0026\\\\u0026 colcon build --symlink-install --packages-select rf2o_laser_odometry 2\\\\u003e\\\\u00261\\",\\"Cwd\\":\\"/home/charan/.gemini/antigravity-ide/scratch/ZMR_project\\",\\"WaitMsBeforeAsync\\":60000,\\"toolAction\\":\\"Building rf2o_laser_odometry\\",\\"toolSummary\\":\\"Build laser odometry\\"}","originalName":"run_command"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/home/charan/Downloads/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/charan'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-a9e30cac-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/charan/.local/share/applications/antigravity-ide.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1842'), ('SYSTEMD_EXEC_PID', '1989'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/charan/miniforge3'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2646'), ('CPLUS_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'charan'), ('JOURNAL_STREAM', '8:15775'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'charan'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/home/charan/Downloads/Antigravity IDE/resources/app'), ('PATH', '/home/charan/.gemini/antigravity-ide/bin:/home/charan/.local/bin:/home/charan/bin:/home/charan/miniforge3/bin:/home/charan/miniforge3/condabin:/opt/ros/humble/bin:/home/charan/.local/bin:/home/charan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/charan/.local/bin'), ('SESSION_MANAGER', 'local/charan-Lenovo-Z50-70:@/tmp/.ICE-unix/1953,unix/charan-Lenovo-Z50-70:/tmp/.ICE-unix/1953'), ('INVOCATION_ID', '82de39ae38ac424f9ae24e2b5bf201c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('MUJOCO_DIR', '/home/charan/mujoco/mujoco'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('MAMBA_ROOT_PREFIX', '/home/charan/miniforge3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EDDPU3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/charan/miniforge3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/charan/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:36987'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('MAMBA_EXE', '/home/charan/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3802d24b-a860-4f3c-ae55-329f6325772d'), ('PWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/charan/.config/Antigravity IDE/CachedData/4e2e10a9285aefbdcb898ae5e50dde45e9c7f505'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/charan/miniforge3'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', '66817ef9-5bec-46c7-8d0a-e8ec7c70fa70'), ('VSCODE_PID', '2646'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.607407] (-) TimerEvent: {}
+[2.654720] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o\x1b[0m\n'}
+[2.655073] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[2.657603] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[2.707534] (-) TimerEvent: {}
+[2.808065] (-) TimerEvent: {}
+[2.908492] (-) TimerEvent: {}
+[3.008942] (-) TimerEvent: {}
+[3.109308] (-) TimerEvent: {}
+[3.209875] (-) TimerEvent: {}
+[3.310302] (-) TimerEvent: {}
+[3.410618] (-) TimerEvent: {}
+[3.511097] (-) TimerEvent: {}
+[3.611798] (-) TimerEvent: {}
+[3.712220] (-) TimerEvent: {}
+[3.812668] (-) TimerEvent: {}
+[3.917328] (-) TimerEvent: {}
+[4.017770] (-) TimerEvent: {}
+[4.118562] (-) TimerEvent: {}
+[4.220471] (-) TimerEvent: {}
+[4.320899] (-) TimerEvent: {}
+[4.421336] (-) TimerEvent: {}
+[4.521914] (-) TimerEvent: {}
+[4.622394] (-) TimerEvent: {}
+[4.723239] (-) TimerEvent: {}
+[4.823725] (-) TimerEvent: {}
+[4.924445] (-) TimerEvent: {}
+[5.024950] (-) TimerEvent: {}
+[5.125376] (-) TimerEvent: {}
+[5.225780] (-) TimerEvent: {}
+[5.326203] (-) TimerEvent: {}
+[5.426650] (-) TimerEvent: {}
+[5.527067] (-) TimerEvent: {}
+[5.628027] (-) TimerEvent: {}
+[5.728946] (-) TimerEvent: {}
+[5.829672] (-) TimerEvent: {}
+[5.931522] (-) TimerEvent: {}
+[6.035306] (-) TimerEvent: {}
+[6.137611] (-) TimerEvent: {}
+[6.238039] (-) TimerEvent: {}
+[6.338566] (-) TimerEvent: {}
+[6.439271] (-) TimerEvent: {}
+[6.540635] (-) TimerEvent: {}
+[6.641015] (-) TimerEvent: {}
+[6.741663] (-) TimerEvent: {}
+[6.843348] (-) TimerEvent: {}
+[6.944043] (-) TimerEvent: {}
+[7.045142] (-) TimerEvent: {}
+[7.145913] (-) TimerEvent: {}
+[7.246289] (-) TimerEvent: {}
+[7.349929] (-) TimerEvent: {}
+[7.450328] (-) TimerEvent: {}
+[7.550959] (-) TimerEvent: {}
+[7.651635] (-) TimerEvent: {}
+[7.752309] (-) TimerEvent: {}
+[7.853609] (-) TimerEvent: {}
+[7.954034] (-) TimerEvent: {}
+[8.055605] (-) TimerEvent: {}
+[8.156320] (-) TimerEvent: {}
+[8.257739] (-) TimerEvent: {}
+[8.358295] (-) TimerEvent: {}
+[8.459198] (-) TimerEvent: {}
+[8.560937] (-) TimerEvent: {}
+[8.661550] (-) TimerEvent: {}
+[8.763624] (-) TimerEvent: {}
+[8.864610] (-) TimerEvent: {}
+[8.965260] (-) TimerEvent: {}
+[9.066780] (-) TimerEvent: {}
+[9.167182] (-) TimerEvent: {}
+[9.267590] (-) TimerEvent: {}
+[9.369101] (-) TimerEvent: {}
+[9.469770] (-) TimerEvent: {}
+[9.571605] (-) TimerEvent: {}
+[9.672000] (-) TimerEvent: {}
+[9.772503] (-) TimerEvent: {}
+[9.873839] (-) TimerEvent: {}
+[9.974310] (-) TimerEvent: {}
+[10.077607] (-) TimerEvent: {}
+[10.178011] (-) TimerEvent: {}
+[10.278430] (-) TimerEvent: {}
+[10.378846] (-) TimerEvent: {}
+[10.479258] (-) TimerEvent: {}
+[10.581607] (-) TimerEvent: {}
+[10.682020] (-) TimerEvent: {}
+[10.782414] (-) TimerEvent: {}
+[10.883454] (-) TimerEvent: {}
+[10.984689] (-) TimerEvent: {}
+[11.086188] (-) TimerEvent: {}
+[11.186647] (-) TimerEvent: {}
+[11.288634] (-) TimerEvent: {}
+[11.389009] (-) TimerEvent: {}
+[11.489431] (-) TimerEvent: {}
+[11.589859] (-) TimerEvent: {}
+[11.690311] (-) TimerEvent: {}
+[11.791748] (-) TimerEvent: {}
+[11.892606] (-) TimerEvent: {}
+[11.993734] (-) TimerEvent: {}
+[12.094162] (-) TimerEvent: {}
+[12.195604] (-) TimerEvent: {}
+[12.296006] (-) TimerEvent: {}
+[12.396487] (-) TimerEvent: {}
+[12.499608] (-) TimerEvent: {}
+[12.600012] (-) TimerEvent: {}
+[12.700418] (-) TimerEvent: {}
+[12.800863] (-) TimerEvent: {}
+[12.901277] (-) TimerEvent: {}
+[13.001670] (-) TimerEvent: {}
+[13.102072] (-) TimerEvent: {}
+[13.203795] (-) TimerEvent: {}
+[13.304265] (-) TimerEvent: {}
+[13.404735] (-) TimerEvent: {}
+[13.507736] (-) TimerEvent: {}
+[13.608144] (-) TimerEvent: {}
+[13.708540] (-) TimerEvent: {}
+[13.808913] (-) TimerEvent: {}
+[13.909336] (-) TimerEvent: {}
+[14.009716] (-) TimerEvent: {}
+[14.110089] (-) TimerEvent: {}
+[14.210460] (-) TimerEvent: {}
+[14.311663] (-) TimerEvent: {}
+[14.412061] (-) TimerEvent: {}
+[14.512821] (-) TimerEvent: {}
+[14.615839] (-) TimerEvent: {}
+[14.716211] (-) TimerEvent: {}
+[14.816597] (-) TimerEvent: {}
+[14.917032] (-) TimerEvent: {}
+[15.017396] (-) TimerEvent: {}
+[15.117779] (-) TimerEvent: {}
+[15.218136] (-) TimerEvent: {}
+[15.319608] (-) TimerEvent: {}
+[15.420024] (-) TimerEvent: {}
+[15.521153] (-) TimerEvent: {}
+[15.621624] (-) TimerEvent: {}
+[15.722793] (-) TimerEvent: {}
+[15.824800] (-) TimerEvent: {}
+[15.925230] (-) TimerEvent: {}
+[16.025727] (-) TimerEvent: {}
+[16.126177] (-) TimerEvent: {}
+[16.226630] (-) TimerEvent: {}
+[16.327458] (-) TimerEvent: {}
+[16.428041] (-) TimerEvent: {}
+[16.528694] (-) TimerEvent: {}
+[16.629167] (-) TimerEvent: {}
+[16.732340] (-) TimerEvent: {}
+[16.832958] (-) TimerEvent: {}
+[16.933722] (-) TimerEvent: {}
+[17.034119] (-) TimerEvent: {}
+[17.134991] (-) TimerEvent: {}
+[17.237611] (-) TimerEvent: {}
+[17.337976] (-) TimerEvent: {}
+[17.438305] (-) TimerEvent: {}
+[17.541228] (-) TimerEvent: {}
+[17.641522] (-) TimerEvent: {}
+[17.741817] (-) TimerEvent: {}
+[17.842120] (-) TimerEvent: {}
+[17.942711] (-) TimerEvent: {}
+[18.043117] (-) TimerEvent: {}
+[18.143554] (-) TimerEvent: {}
+[18.243839] (-) TimerEvent: {}
+[18.344128] (-) TimerEvent: {}
+[18.444432] (-) TimerEvent: {}
+[18.544816] (-) TimerEvent: {}
+[18.645125] (-) TimerEvent: {}
+[18.745490] (-) TimerEvent: {}
+[18.846606] (-) TimerEvent: {}
+[18.946975] (-) TimerEvent: {}
+[19.048617] (-) TimerEvent: {}
+[19.148967] (-) TimerEvent: {}
+[19.249332] (-) TimerEvent: {}
+[19.354687] (-) TimerEvent: {}
+[19.456543] (-) TimerEvent: {}
+[19.556911] (-) TimerEvent: {}
+[19.657288] (-) TimerEvent: {}
+[19.757619] (-) TimerEvent: {}
+[19.859123] (-) TimerEvent: {}
+[19.960829] (-) TimerEvent: {}
+[20.061236] (-) TimerEvent: {}
+[20.161684] (-) TimerEvent: {}
+[20.264496] (-) TimerEvent: {}
+[20.367411] (-) TimerEvent: {}
+[20.468016] (-) TimerEvent: {}
+[20.568448] (-) TimerEvent: {}
+[20.669354] (-) TimerEvent: {}
+[20.769835] (-) TimerEvent: {}
+[20.870273] (-) TimerEvent: {}
+[20.970696] (-) TimerEvent: {}
+[21.071239] (-) TimerEvent: {}
+[21.171611] (-) TimerEvent: {}
+[21.272019] (-) TimerEvent: {}
+[21.372445] (-) TimerEvent: {}
+[21.472844] (-) TimerEvent: {}
+[21.573246] (-) TimerEvent: {}
+[21.673741] (-) TimerEvent: {}
+[21.774183] (-) TimerEvent: {}
+[21.874608] (-) TimerEvent: {}
+[21.975014] (-) TimerEvent: {}
+[22.075438] (-) TimerEvent: {}
+[22.175896] (-) TimerEvent: {}
+[22.276296] (-) TimerEvent: {}
+[22.377727] (-) TimerEvent: {}
+[22.478117] (-) TimerEvent: {}
+[22.579017] (-) TimerEvent: {}
+[22.681328] (-) TimerEvent: {}
+[22.783382] (-) TimerEvent: {}
+[22.883764] (-) TimerEvent: {}
+[22.985325] (-) TimerEvent: {}
+[23.086316] (-) TimerEvent: {}
+[23.186744] (-) TimerEvent: {}
+[23.288613] (-) TimerEvent: {}
+[23.389001] (-) TimerEvent: {}
+[23.489823] (-) TimerEvent: {}
+[23.590462] (-) TimerEvent: {}
+[23.691394] (-) TimerEvent: {}
+[23.792975] (-) TimerEvent: {}
+[23.894755] (-) TimerEvent: {}
+[23.997844] (-) TimerEvent: {}
+[24.099467] (-) TimerEvent: {}
+[24.200018] (-) TimerEvent: {}
+[24.301761] (-) TimerEvent: {}
+[24.402140] (-) TimerEvent: {}
+[24.504638] (-) TimerEvent: {}
+[24.605104] (-) TimerEvent: {}
+[24.705761] (-) TimerEvent: {}
+[24.806433] (-) TimerEvent: {}
+[24.906858] (-) TimerEvent: {}
+[25.009051] (-) TimerEvent: {}
+[25.110114] (-) TimerEvent: {}
+[25.211243] (-) TimerEvent: {}
+[25.312762] (-) TimerEvent: {}
+[25.414124] (-) TimerEvent: {}
+[25.514577] (-) TimerEvent: {}
+[25.616550] (-) TimerEvent: {}
+[25.717357] (-) TimerEvent: {}
+[25.817916] (-) TimerEvent: {}
+[25.920605] (-) TimerEvent: {}
+[26.020927] (-) TimerEvent: {}
+[26.121249] (-) TimerEvent: {}
+[26.221564] (-) TimerEvent: {}
+[26.324595] (-) TimerEvent: {}
+[26.424923] (-) TimerEvent: {}
+[26.525241] (-) TimerEvent: {}
+[26.625667] (-) TimerEvent: {}
+[26.726311] (-) TimerEvent: {}
+[26.826705] (-) TimerEvent: {}
+[26.927334] (-) TimerEvent: {}
+[27.027889] (-) TimerEvent: {}
+[27.128594] (-) TimerEvent: {}
+[27.228983] (-) TimerEvent: {}
+[27.331485] (-) TimerEvent: {}
+[27.432737] (-) TimerEvent: {}
+[27.534597] (-) TimerEvent: {}
+[27.634980] (-) TimerEvent: {}
+[27.735325] (-) TimerEvent: {}
+[27.835695] (-) TimerEvent: {}
+[27.936396] (-) TimerEvent: {}
+[28.037273] (-) TimerEvent: {}
+[28.137633] (-) TimerEvent: {}
+[28.238060] (-) TimerEvent: {}
+[28.338492] (-) TimerEvent: {}
+[28.438945] (-) TimerEvent: {}
+[28.539494] (-) TimerEvent: {}
+[28.639976] (-) TimerEvent: {}
+[28.740631] (-) TimerEvent: {}
+[28.841080] (-) TimerEvent: {}
+[28.942110] (-) TimerEvent: {}
+[29.042537] (-) TimerEvent: {}
+[29.142916] (-) TimerEvent: {}
+[29.243308] (-) TimerEvent: {}
+[29.343716] (-) TimerEvent: {}
+[29.444370] (-) TimerEvent: {}
+[29.544741] (-) TimerEvent: {}
+[29.645147] (-) TimerEvent: {}
+[29.747280] (-) TimerEvent: {}
+[29.849337] (-) TimerEvent: {}
+[29.949765] (-) TimerEvent: {}
+[30.050204] (-) TimerEvent: {}
+[30.150608] (-) TimerEvent: {}
+[30.250984] (-) TimerEvent: {}
+[30.351387] (-) TimerEvent: {}
+[30.451794] (-) TimerEvent: {}
+[30.552195] (-) TimerEvent: {}
+[30.652622] (-) TimerEvent: {}
+[30.753333] (-) TimerEvent: {}
+[30.853794] (-) TimerEvent: {}
+[30.954310] (-) TimerEvent: {}
+[31.054789] (-) TimerEvent: {}
+[31.155163] (-) TimerEvent: {}
+[31.255555] (-) TimerEvent: {}
+[31.355913] (-) TimerEvent: {}
+[31.456331] (-) TimerEvent: {}
+[31.556753] (-) TimerEvent: {}
+[31.657127] (-) TimerEvent: {}
+[31.757552] (-) TimerEvent: {}
+[31.857941] (-) TimerEvent: {}
+[31.958318] (-) TimerEvent: {}
+[32.058707] (-) TimerEvent: {}
+[32.159096] (-) TimerEvent: {}
+[32.259705] (-) TimerEvent: {}
+[32.360334] (-) TimerEvent: {}
+[32.460797] (-) TimerEvent: {}
+[32.561159] (-) TimerEvent: {}
+[32.661568] (-) TimerEvent: {}
+[32.762081] (-) TimerEvent: {}
+[32.863874] (-) TimerEvent: {}
+[32.964610] (-) TimerEvent: {}
+[33.065002] (-) TimerEvent: {}
+[33.165403] (-) TimerEvent: {}
+[33.267154] (-) TimerEvent: {}
+[33.367600] (-) TimerEvent: {}
+[33.468115] (-) TimerEvent: {}
+[33.568535] (-) TimerEvent: {}
+[33.668994] (-) TimerEvent: {}
+[33.769373] (-) TimerEvent: {}
+[33.869794] (-) TimerEvent: {}
+[33.970197] (-) TimerEvent: {}
+[34.070560] (-) TimerEvent: {}
+[34.170846] (-) TimerEvent: {}
+[34.271150] (-) TimerEvent: {}
+[34.371532] (-) TimerEvent: {}
+[34.473892] (-) TimerEvent: {}
+[34.574287] (-) TimerEvent: {}
+[34.675236] (-) TimerEvent: {}
+[34.775612] (-) TimerEvent: {}
+[34.875906] (-) TimerEvent: {}
+[34.976265] (-) TimerEvent: {}
+[35.076617] (-) TimerEvent: {}
+[35.177053] (-) TimerEvent: {}
+[35.277448] (-) TimerEvent: {}
+[35.377844] (-) TimerEvent: {}
+[35.479052] (-) TimerEvent: {}
+[35.584473] (-) TimerEvent: {}
+[35.684871] (-) TimerEvent: {}
+[35.786460] (-) TimerEvent: {}
+[35.887004] (-) TimerEvent: {}
+[35.987393] (-) TimerEvent: {}
+[36.087994] (-) TimerEvent: {}
+[36.188375] (-) TimerEvent: {}
+[36.288751] (-) TimerEvent: {}
+[36.389127] (-) TimerEvent: {}
+[36.489484] (-) TimerEvent: {}
+[36.589865] (-) TimerEvent: {}
+[36.690258] (-) TimerEvent: {}
+[36.790612] (-) TimerEvent: {}
+[36.890971] (-) TimerEvent: {}
+[36.991371] (-) TimerEvent: {}
+[37.091781] (-) TimerEvent: {}
+[37.192171] (-) TimerEvent: {}
+[37.292579] (-) TimerEvent: {}
+[37.393030] (-) TimerEvent: {}
+[37.493384] (-) TimerEvent: {}
+[37.593813] (-) TimerEvent: {}
+[37.694178] (-) TimerEvent: {}
+[37.794573] (-) TimerEvent: {}
+[37.894962] (-) TimerEvent: {}
+[37.995802] (-) TimerEvent: {}
+[38.096658] (-) TimerEvent: {}
+[38.198604] (-) TimerEvent: {}
+[38.298962] (-) TimerEvent: {}
+[38.399333] (-) TimerEvent: {}
+[38.499726] (-) TimerEvent: {}
+[38.600105] (-) TimerEvent: {}
+[38.700517] (-) TimerEvent: {}
+[38.800952] (-) TimerEvent: {}
+[38.901323] (-) TimerEvent: {}
+[39.001745] (-) TimerEvent: {}
+[39.102152] (-) TimerEvent: {}
+[39.202912] (-) TimerEvent: {}
+[39.303330] (-) TimerEvent: {}
+[39.403745] (-) TimerEvent: {}
+[39.505294] (-) TimerEvent: {}
+[39.605845] (-) TimerEvent: {}
+[39.706542] (-) TimerEvent: {}
+[39.807166] (-) TimerEvent: {}
+[39.907534] (-) TimerEvent: {}
+[40.007942] (-) TimerEvent: {}
+[40.109605] (-) TimerEvent: {}
+[40.210032] (-) TimerEvent: {}
+[40.310466] (-) TimerEvent: {}
+[40.410834] (-) TimerEvent: {}
+[40.511190] (-) TimerEvent: {}
+[40.611564] (-) TimerEvent: {}
+[40.713941] (-) TimerEvent: {}
+[40.814342] (-) TimerEvent: {}
+[40.914774] (-) TimerEvent: {}
+[41.015192] (-) TimerEvent: {}
+[41.116497] (-) TimerEvent: {}
+[41.217692] (-) TimerEvent: {}
+[41.318127] (-) TimerEvent: {}
+[41.418543] (-) TimerEvent: {}
+[41.518846] (-) TimerEvent: {}
+[41.619173] (-) TimerEvent: {}
+[41.719589] (-) TimerEvent: {}
+[41.820049] (-) TimerEvent: {}
+[41.920737] (-) TimerEvent: {}
+[42.021062] (-) TimerEvent: {}
+[42.028860] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] \x1b[1m\x1b[32mLinking CXX static library librf2o_laser_odometry.a\x1b[0m\n'}
+[42.121175] (-) TimerEvent: {}
+[42.221517] (-) TimerEvent: {}
+[42.321860] (-) TimerEvent: {}
+[42.422189] (-) TimerEvent: {}
+[42.522540] (-) TimerEvent: {}
+[42.622993] (-) TimerEvent: {}
+[42.693411] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] Built target rf2o_laser_odometry\n'}
+[42.723111] (-) TimerEvent: {}
+[42.823448] (-) TimerEvent: {}
+[42.875088] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable rf2o_laser_odometry_node\x1b[0m\n'}
+[42.923598] (-) TimerEvent: {}
+[43.024014] (-) TimerEvent: {}
+[43.124434] (-) TimerEvent: {}
+[43.225276] (-) TimerEvent: {}
+[43.325788] (-) TimerEvent: {}
+[43.426269] (-) TimerEvent: {}
+[43.526747] (-) TimerEvent: {}
+[43.627129] (-) TimerEvent: {}
+[43.727505] (-) TimerEvent: {}
+[43.827893] (-) TimerEvent: {}
+[43.928288] (-) TimerEvent: {}
+[44.028824] (-) TimerEvent: {}
+[44.129251] (-) TimerEvent: {}
+[44.229611] (-) TimerEvent: {}
+[44.330099] (-) TimerEvent: {}
+[44.430497] (-) TimerEvent: {}
+[44.530847] (-) TimerEvent: {}
+[44.632211] (-) TimerEvent: {}
+[44.732786] (-) TimerEvent: {}
+[44.833075] (-) TimerEvent: {}
+[44.869118] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry_node\n'}
+[44.893409] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[44.894375] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'install'}
+[44.933206] (-) TimerEvent: {}
+[45.014666] (rf2o_laser_odometry) Command: {'cmd': ['/home/charan/.local/bin/cmake', '--install', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/rf2o_laser_odometry'], 'cwd': '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/rf2o_laser_odometry', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/charan'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('C_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('LANGUAGE', 'en_IN:en'), ('USER', 'charan'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"53f8e2c5-ee3d-472a-9480-67ea11a14894","stepIndex":78,"toolCall":{"id":"toolu_vrtx_019hFyaPykD9oERvAoz2T3aL","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/charan/.gemini/antigravity-ide/scratch/ZMR_project \\\\u0026\\\\u0026 source /opt/ros/humble/setup.bash \\\\u0026\\\\u0026 colcon build --symlink-install --packages-select rf2o_laser_odometry 2\\\\u003e\\\\u00261\\",\\"Cwd\\":\\"/home/charan/.gemini/antigravity-ide/scratch/ZMR_project\\",\\"WaitMsBeforeAsync\\":60000,\\"toolAction\\":\\"Building rf2o_laser_odometry\\",\\"toolSummary\\":\\"Build laser odometry\\"}","originalName":"run_command"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/home/charan/Downloads/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/charan'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-a9e30cac-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/charan/.local/share/applications/antigravity-ide.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1842'), ('SYSTEMD_EXEC_PID', '1989'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/charan/miniforge3'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2646'), ('CPLUS_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'charan'), ('JOURNAL_STREAM', '8:15775'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'charan'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/home/charan/Downloads/Antigravity IDE/resources/app'), ('PATH', '/home/charan/.gemini/antigravity-ide/bin:/home/charan/.local/bin:/home/charan/bin:/home/charan/miniforge3/bin:/home/charan/miniforge3/condabin:/opt/ros/humble/bin:/home/charan/.local/bin:/home/charan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/charan/.local/bin'), ('SESSION_MANAGER', 'local/charan-Lenovo-Z50-70:@/tmp/.ICE-unix/1953,unix/charan-Lenovo-Z50-70:/tmp/.ICE-unix/1953'), ('INVOCATION_ID', '82de39ae38ac424f9ae24e2b5bf201c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('MUJOCO_DIR', '/home/charan/mujoco/mujoco'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('MAMBA_ROOT_PREFIX', '/home/charan/miniforge3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EDDPU3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/charan/miniforge3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/charan/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:36987'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('MAMBA_EXE', '/home/charan/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3802d24b-a860-4f3c-ae55-329f6325772d'), ('PWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/charan/.config/Antigravity IDE/CachedData/4e2e10a9285aefbdcb898ae5e50dde45e9c7f505'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/charan/miniforge3'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', '66817ef9-5bec-46c7-8d0a-e8ec7c70fa70'), ('VSCODE_PID', '2646'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[45.033338] (-) TimerEvent: {}
+[45.125009] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[45.125549] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[45.125969] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node\n'}
+[45.130469] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py\n'}
+[45.133461] (-) TimerEvent: {}
+[45.135214] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry\n'}
+[45.139591] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry\n'}
+[45.143751] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh\n'}
+[45.149129] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv\n'}
+[45.159424] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh\n'}
+[45.165469] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv\n'}
+[45.169412] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash\n'}
+[45.173278] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh\n'}
+[45.177207] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh\n'}
+[45.182785] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv\n'}
+[45.186842] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv\n'}
+[45.190620] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry\n'}
+[45.194320] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake\n'}
+[45.198868] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake\n'}
+[45.202926] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml\n'}
+[45.208646] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[45.233692] (-) TimerEvent: {}
+[45.234327] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 0}
+[45.235335] (-) EventReactorShutdown: {}

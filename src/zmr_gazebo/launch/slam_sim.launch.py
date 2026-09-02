@@ -28,6 +28,9 @@ def generate_launch_description():
     with open(urdf_path, 'r') as f:
         robot_description = f.read()
 
+    # Prevent Gazebo from hanging while trying to download models from the dead server
+    os.environ['GAZEBO_MODEL_DATABASE_URI'] = ''
+
     # 1. Gazebo
     gazebo_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -52,6 +55,7 @@ def generate_launch_description():
         package='gazebo_ros',
         executable='spawn_entity.py',
         output='screen',
+        prefix=['/usr/bin/python3 '], # FORCE system python to bypass Conda numpy crash
         arguments=[
             '-entity', 'zmr_robot',
             '-topic', '/robot_description',

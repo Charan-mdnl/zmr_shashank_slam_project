@@ -1,0 +1,9 @@
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_description/CMakeFiles/uninstall.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_description/CMakeFiles/zmr_description_uninstall.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_description/CMakeFiles/test.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_description/CMakeFiles/edit_cache.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_description/CMakeFiles/rebuild_cache.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_description/CMakeFiles/list_install_components.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_description/CMakeFiles/install.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_description/CMakeFiles/install/local.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_description/CMakeFiles/install/strip.dir

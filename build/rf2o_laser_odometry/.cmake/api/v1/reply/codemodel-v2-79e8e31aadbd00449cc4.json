@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ca1c69974e41d99d01a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rf2o_laser_odometry",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rf2o_laser_odometry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rf2o_laser_odometry-9c03ac74f3d92c546631.json",
+					"name" : "rf2o_laser_odometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rf2o_laser_odometry_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rf2o_laser_odometry_node-caaacf0de07e5b41a805.json",
+					"name" : "rf2o_laser_odometry_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rf2o_laser_odometry_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rf2o_laser_odometry_uninstall-fa3b7f46abc6b3aee085.json",
+					"name" : "rf2o_laser_odometry_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-67008d33adad7418d8fc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/rf2o_laser_odometry",
+		"source" : "/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/rf2o_laser_odometry"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

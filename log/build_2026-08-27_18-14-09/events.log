@@ -1,0 +1,788 @@
+[0.000000] (-) TimerEvent: {}
+[0.000627] (-) JobUnselected: {'identifier': 'zmr_bringup'}
+[0.000682] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.000712] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.009830] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.010548] (sllidar_ros2) Command: {'cmd': ['/home/charan/.local/bin/cmake', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2'], 'cwd': '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/sllidar_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/charan'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('C_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('LANGUAGE', 'en_IN:en'), ('USER', 'charan'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"53f8e2c5-ee3d-472a-9480-67ea11a14894","stepIndex":60,"toolCall":{"id":"toolu_vrtx_0184B7V8MenPzPsQf432FU93","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/charan/.gemini/antigravity-ide/scratch/ZMR_project \\\\u0026\\\\u0026 source /opt/ros/humble/setup.bash \\\\u0026\\\\u0026 colcon build --symlink-install --packages-select sllidar_ros2 2\\\\u003e\\\\u00261\\",\\"Cwd\\":\\"/home/charan/.gemini/antigravity-ide/scratch/ZMR_project\\",\\"WaitMsBeforeAsync\\":60000,\\"toolAction\\":\\"Building sllidar_ros2\\",\\"toolSummary\\":\\"Build new LiDAR driver\\"}","originalName":"run_command"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/home/charan/Downloads/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/charan'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-a9e30cac-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/charan/.local/share/applications/antigravity-ide.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1842'), ('SYSTEMD_EXEC_PID', '1989'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/charan/miniforge3'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2646'), ('CPLUS_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'charan'), ('JOURNAL_STREAM', '8:15775'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'charan'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/home/charan/Downloads/Antigravity IDE/resources/app'), ('PATH', '/home/charan/.gemini/antigravity-ide/bin:/home/charan/.local/bin:/home/charan/bin:/home/charan/miniforge3/bin:/home/charan/miniforge3/condabin:/opt/ros/humble/bin:/home/charan/.local/bin:/home/charan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/charan/.local/bin'), ('SESSION_MANAGER', 'local/charan-Lenovo-Z50-70:@/tmp/.ICE-unix/1953,unix/charan-Lenovo-Z50-70:/tmp/.ICE-unix/1953'), ('INVOCATION_ID', '82de39ae38ac424f9ae24e2b5bf201c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('MUJOCO_DIR', '/home/charan/mujoco/mujoco'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('MAMBA_ROOT_PREFIX', '/home/charan/miniforge3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EDDPU3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/charan/miniforge3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/charan/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:36987'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('MAMBA_EXE', '/home/charan/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3802d24b-a860-4f3c-ae55-329f6325772d'), ('PWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/charan/.config/Antigravity IDE/CachedData/4e2e10a9285aefbdcb898ae5e50dde45e9c7f505'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/charan/miniforge3'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', '66817ef9-5bec-46c7-8d0a-e8ec7c70fa70'), ('VSCODE_PID', '2646'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099723] (-) TimerEvent: {}
+[0.118765] (sllidar_ros2) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):\n'}
+[0.119024] (sllidar_ros2) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.119148] (sllidar_ros2) StderrLine: {'line': b'  CMake.\n'}
+[0.119270] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[0.119445] (sllidar_ros2) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.119574] (sllidar_ros2) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.119689] (sllidar_ros2) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.119827] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[0.119943] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[0.174829] (sllidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199844] (-) TimerEvent: {}
+[0.260357] (sllidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.272335] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299941] (-) TimerEvent: {}
+[0.339550] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.371677] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.372018] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.372220] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.391104] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400366] (-) TimerEvent: {}
+[0.503479] (-) TimerEvent: {}
+[0.551744] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.604069] (-) TimerEvent: {}
+[0.608461] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.609344] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.610644] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.632548] (sllidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.704181] (-) TimerEvent: {}
+[0.802711] (sllidar_ros2) StdoutLine: {'line': b'-- Found Python3: /home/charan/miniforge3/bin/python3 (found version "3.13.12") found components: Interpreter\n'}
+[0.804275] (-) TimerEvent: {}
+[0.904570] (-) TimerEvent: {}
+[0.913881] (sllidar_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.978592] (sllidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.004692] (-) TimerEvent: {}
+[1.076589] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.087028] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.104806] (-) TimerEvent: {}
+[1.111137] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.140420] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.178767] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.204925] (-) TimerEvent: {}
+[1.287765] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.294588] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.305030] (-) TimerEvent: {}
+[1.405328] (-) TimerEvent: {}
+[1.441973] (sllidar_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[1.496230] (sllidar_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.505435] (-) TimerEvent: {}
+[1.564016] (sllidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.583234] (sllidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.605564] (-) TimerEvent: {}
+[1.677149] (sllidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.678767] (sllidar_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.705677] (-) TimerEvent: {}
+[1.805995] (-) TimerEvent: {}
+[1.812376] (sllidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.893765] (sllidar_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.906202] (-) TimerEvent: {}
+[2.006540] (-) TimerEvent: {}
+[2.070253] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.098710] (sllidar_ros2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.103899] (sllidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/sllidar_ros2\n'}
+[2.106647] (-) TimerEvent: {}
+[2.117747] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[2.118668] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[2.121248] (sllidar_ros2) Command: {'cmd': ['/home/charan/.local/bin/cmake', '--build', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/sllidar_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/charan'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('C_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('LANGUAGE', 'en_IN:en'), ('USER', 'charan'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"53f8e2c5-ee3d-472a-9480-67ea11a14894","stepIndex":60,"toolCall":{"id":"toolu_vrtx_0184B7V8MenPzPsQf432FU93","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/charan/.gemini/antigravity-ide/scratch/ZMR_project \\\\u0026\\\\u0026 source /opt/ros/humble/setup.bash \\\\u0026\\\\u0026 colcon build --symlink-install --packages-select sllidar_ros2 2\\\\u003e\\\\u00261\\",\\"Cwd\\":\\"/home/charan/.gemini/antigravity-ide/scratch/ZMR_project\\",\\"WaitMsBeforeAsync\\":60000,\\"toolAction\\":\\"Building sllidar_ros2\\",\\"toolSummary\\":\\"Build new LiDAR driver\\"}","originalName":"run_command"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/home/charan/Downloads/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/charan'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-a9e30cac-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/charan/.local/share/applications/antigravity-ide.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1842'), ('SYSTEMD_EXEC_PID', '1989'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/charan/miniforge3'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2646'), ('CPLUS_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'charan'), ('JOURNAL_STREAM', '8:15775'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'charan'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/home/charan/Downloads/Antigravity IDE/resources/app'), ('PATH', '/home/charan/.gemini/antigravity-ide/bin:/home/charan/.local/bin:/home/charan/bin:/home/charan/miniforge3/bin:/home/charan/miniforge3/condabin:/opt/ros/humble/bin:/home/charan/.local/bin:/home/charan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/charan/.local/bin'), ('SESSION_MANAGER', 'local/charan-Lenovo-Z50-70:@/tmp/.ICE-unix/1953,unix/charan-Lenovo-Z50-70:/tmp/.ICE-unix/1953'), ('INVOCATION_ID', '82de39ae38ac424f9ae24e2b5bf201c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('MUJOCO_DIR', '/home/charan/mujoco/mujoco'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('MAMBA_ROOT_PREFIX', '/home/charan/miniforge3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EDDPU3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/charan/miniforge3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/charan/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:36987'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('MAMBA_EXE', '/home/charan/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3802d24b-a860-4f3c-ae55-329f6325772d'), ('PWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/charan/.config/Antigravity IDE/CachedData/4e2e10a9285aefbdcb898ae5e50dde45e9c7f505'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/charan/miniforge3'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', '66817ef9-5bec-46c7-8d0a-e8ec7c70fa70'), ('VSCODE_PID', '2646'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.206743] (-) TimerEvent: {}
+[2.253426] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o\x1b[0m\n'}
+[2.254371] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[2.254641] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[2.256941] (sllidar_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[2.307375] (-) TimerEvent: {}
+[2.408514] (-) TimerEvent: {}
+[2.509551] (-) TimerEvent: {}
+[2.610089] (-) TimerEvent: {}
+[2.710489] (-) TimerEvent: {}
+[2.812595] (-) TimerEvent: {}
+[2.913476] (-) TimerEvent: {}
+[3.016191] (-) TimerEvent: {}
+[3.116569] (-) TimerEvent: {}
+[3.216939] (-) TimerEvent: {}
+[3.227710] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,\n'}
+[3.227982] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[3.228133] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[3.228278] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:\n'}
+[3.228445] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[3.228591] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[3.228731] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[3.230339] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,\n'}
+[3.230557] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[3.230705] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[3.230846] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:\n'}
+[3.231007] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[3.231160] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[3.231309] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[3.318579] (-) TimerEvent: {}
+[3.354548] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42,\n'}
+[3.354977] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:41,\n'}
+[3.356097] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:\n'}
+[3.356327] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function \xe2\x80\x98virtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)\xe2\x80\x99:\n'}
+[3.356518] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:733:24: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98size_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} [-Wsign-compare]\n'}
+[3.356684] (sllidar_ros2) StderrLine: {'line': b'  733 |             assert(ans == len);\n'}
+[3.356841] (sllidar_ros2) StderrLine: {'line': b'      |                    ~~~~^~~~~~\n'}
+[3.364121] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98bool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\xe2\x80\x99:\n'}
+[3.364628] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74: warning: unused parameter \xe2\x80\x98flags\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.364831] (sllidar_ros2) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, uint32_t flags)\n'}
+[3.364983] (sllidar_ros2) StderrLine: {'line': b'      |                                                                 ~~~~~~~~~^~~~~\n'}
+[3.365115] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98virtual void rp::arch::net::raw_serial::flush(_u32)\xe2\x80\x99:\n'}
+[3.365248] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30: warning: unused parameter \xe2\x80\x98flags\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.365424] (sllidar_ros2) StderrLine: {'line': b'  281 | void raw_serial::flush( _u32 flags)\n'}
+[3.365576] (sllidar_ros2) StderrLine: {'line': b'      |                         ~~~~~^~~~~\n'}
+[3.365723] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98virtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\xe2\x80\x99:\n'}
+[3.365888] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.366048] (sllidar_ros2) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(_u32 timeout, size_t * returned_size)\n'}
+[3.366189] (sllidar_ros2) StderrLine: {'line': b'      |                             ~~~~~^~~~~~~\n'}
+[3.366342] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98virtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\xe2\x80\x99:\n'}
+[3.366508] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.366650] (sllidar_ros2) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(_u32 timeout, size_t * returned_size)\n'}
+[3.366792] (sllidar_ros2) StderrLine: {'line': b'      |                             ~~~~~^~~~~~~\n'}
+[3.369372] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98virtual void rp::arch::net::raw_serial::cancelOperation()\xe2\x80\x99:\n'}
+[3.369887] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:427:5: warning: value computed is not used [-Wunused-value]\n'}
+[3.370096] (sllidar_ros2) StderrLine: {'line': b'  427 |     (int)::write(_selfpipe[1], "x", 1);\n'}
+[3.370272] (sllidar_ros2) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.419363] (-) TimerEvent: {}
+[3.522370] (-) TimerEvent: {}
+[3.591347] (sllidar_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[3.622478] (-) TimerEvent: {}
+[3.715918] (sllidar_ros2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o\x1b[0m\n'}
+[3.722589] (-) TimerEvent: {}
+[3.825317] (-) TimerEvent: {}
+[3.925693] (-) TimerEvent: {}
+[4.026418] (-) TimerEvent: {}
+[4.127564] (-) TimerEvent: {}
+[4.229238] (-) TimerEvent: {}
+[4.332052] (-) TimerEvent: {}
+[4.432468] (-) TimerEvent: {}
+[4.532856] (-) TimerEvent: {}
+[4.616714] (sllidar_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o\x1b[0m\n'}
+[4.632980] (-) TimerEvent: {}
+[4.730199] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,\n'}
+[4.730613] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[4.730775] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[4.730919] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41,\n'}
+[4.731053] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39:\n'}
+[4.731186] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[4.731339] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[4.731486] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[4.732678] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,\n'}
+[4.732959] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[4.733102] (-) TimerEvent: {}
+[4.733591] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[4.733936] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41,\n'}
+[4.734250] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39:\n'}
+[4.734574] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[4.734980] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[4.735339] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[4.834368] (-) TimerEvent: {}
+[4.934911] (-) TimerEvent: {}
+[5.035640] (-) TimerEvent: {}
+[5.138565] (-) TimerEvent: {}
+[5.175040] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:40:\n'}
+[5.175318] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function \xe2\x80\x98virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)\xe2\x80\x99:\n'}
+[5.175490] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52: warning: unused parameter \xe2\x80\x98ansType\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.175630] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[5.175766] (sllidar_ros2) StderrLine: {'line': b'      |                                                ~~~~^~~~~~~\n'}
+[5.175898] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66: warning: unused parameter \xe2\x80\x98customCode\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.176023] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[5.176154] (sllidar_ros2) StderrLine: {'line': b'      |                                                             ~~~~~^~~~~~~~~~\n'}
+[5.176310] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90: warning: unused parameter \xe2\x80\x98data\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.176458] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[5.176587] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              ~~~~~~~~~~~~^~~~\n'}
+[5.176719] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103: warning: unused parameter \xe2\x80\x98size\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.176853] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[5.176987] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                ~~~~~~~^~~~\n'}
+[5.177122] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function \xe2\x80\x98virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)\xe2\x80\x99:\n'}
+[5.177263] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42: warning: unused parameter \xe2\x80\x98errMsg\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.182211] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[5.182407] (sllidar_ros2) StderrLine: {'line': b'      |                                      ~~~~^~~~~~\n'}
+[5.182551] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54: warning: unused parameter \xe2\x80\x98ansType\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.182686] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[5.182817] (sllidar_ros2) StderrLine: {'line': b'      |                                                  ~~~~^~~~~~~\n'}
+[5.182944] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75: warning: unused parameter \xe2\x80\x98payload\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.183076] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[5.183208] (sllidar_ros2) StderrLine: {'line': b'      |                                                               ~~~~~~~~~~~~^~~~~~~\n'}
+[5.183355] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91: warning: unused parameter \xe2\x80\x98size\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.183504] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[5.183634] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                    ~~~~~~~^~~~\n'}
+[5.240388] (-) TimerEvent: {}
+[5.340797] (-) TimerEvent: {}
+[5.435981] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,\n'}
+[5.436246] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[5.436400] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[5.436531] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,\n'}
+[5.436673] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39:\n'}
+[5.436797] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[5.436922] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[5.437048] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[5.437818] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,\n'}
+[5.438004] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[5.438133] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[5.438258] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,\n'}
+[5.438428] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39:\n'}
+[5.438569] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[5.438679] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[5.438788] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[5.442635] (-) TimerEvent: {}
+[5.545548] (-) TimerEvent: {}
+[5.645933] (-) TimerEvent: {}
+[5.687416] (sllidar_ros2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o\x1b[0m\n'}
+[5.746056] (-) TimerEvent: {}
+[5.787817] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40:\n'}
+[5.788078] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function \xe2\x80\x98virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)\xe2\x80\x99:\n'}
+[5.788218] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52: warning: unused parameter \xe2\x80\x98ansType\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.788370] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[5.788504] (sllidar_ros2) StderrLine: {'line': b'      |                                                ~~~~^~~~~~~\n'}
+[5.788830] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66: warning: unused parameter \xe2\x80\x98customCode\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.788991] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[5.789119] (sllidar_ros2) StderrLine: {'line': b'      |                                                             ~~~~~^~~~~~~~~~\n'}
+[5.789241] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90: warning: unused parameter \xe2\x80\x98data\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.789388] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[5.789515] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              ~~~~~~~~~~~~^~~~\n'}
+[5.789634] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103: warning: unused parameter \xe2\x80\x98size\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.789759] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[5.789882] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                ~~~~~~~^~~~\n'}
+[5.790001] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function \xe2\x80\x98virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)\xe2\x80\x99:\n'}
+[5.790150] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42: warning: unused parameter \xe2\x80\x98errMsg\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.790280] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[5.790429] (sllidar_ros2) StderrLine: {'line': b'      |                                      ~~~~^~~~~~\n'}
+[5.790548] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54: warning: unused parameter \xe2\x80\x98ansType\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.790668] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[5.790786] (sllidar_ros2) StderrLine: {'line': b'      |                                                  ~~~~^~~~~~~\n'}
+[5.790904] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75: warning: unused parameter \xe2\x80\x98payload\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.791025] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[5.791142] (sllidar_ros2) StderrLine: {'line': b'      |                                                               ~~~~~~~~~~~~^~~~~~~\n'}
+[5.791261] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91: warning: unused parameter \xe2\x80\x98size\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.797560] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[5.797722] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                    ~~~~~~~^~~~\n'}
+[5.809464] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp: In member function \xe2\x80\x98void sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)\xe2\x80\x99:\n'}
+[5.809748] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]\n'}
+[5.809888] (sllidar_ros2) StderrLine: {'line': b'  763 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance);\n'}
+[5.810016] (sllidar_ros2) StderrLine: {'line': b'      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[5.846169] (-) TimerEvent: {}
+[5.946554] (-) TimerEvent: {}
+[6.049495] (-) TimerEvent: {}
+[6.147541] (sllidar_ros2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o\x1b[0m\n'}
+[6.149592] (-) TimerEvent: {}
+[6.249994] (-) TimerEvent: {}
+[6.350680] (-) TimerEvent: {}
+[6.453529] (-) TimerEvent: {}
+[6.556370] (-) TimerEvent: {}
+[6.657724] (-) TimerEvent: {}
+[6.737356] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,\n'}
+[6.737633] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[6.737809] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[6.737951] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,\n'}
+[6.738089] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39:\n'}
+[6.738221] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[6.738381] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[6.738524] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[6.738660] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,\n'}
+[6.738793] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[6.738922] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[6.739057] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,\n'}
+[6.739193] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39:\n'}
+[6.739344] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[6.739502] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[6.739630] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[6.760379] (-) TimerEvent: {}
+[6.864366] (-) TimerEvent: {}
+[6.960808] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,\n'}
+[6.961071] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[6.961212] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[6.961363] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,\n'}
+[6.961513] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39:\n'}
+[6.961662] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[6.961820] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[6.961956] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[6.962200] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,\n'}
+[6.962351] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[6.962521] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[6.962663] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,\n'}
+[6.962804] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39:\n'}
+[6.962956] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[6.963098] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[6.963237] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[6.965369] (-) TimerEvent: {}
+[7.065831] (-) TimerEvent: {}
+[7.169367] (-) TimerEvent: {}
+[7.269762] (-) TimerEvent: {}
+[7.304102] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40:\n'}
+[7.304501] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function \xe2\x80\x98virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)\xe2\x80\x99:\n'}
+[7.304748] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52: warning: unused parameter \xe2\x80\x98ansType\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.304974] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[7.305184] (sllidar_ros2) StderrLine: {'line': b'      |                                                ~~~~^~~~~~~\n'}
+[7.305677] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66: warning: unused parameter \xe2\x80\x98customCode\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.305983] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[7.306172] (sllidar_ros2) StderrLine: {'line': b'      |                                                             ~~~~~^~~~~~~~~~\n'}
+[7.306355] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90: warning: unused parameter \xe2\x80\x98data\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.306529] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[7.306682] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              ~~~~~~~~~~~~^~~~\n'}
+[7.306828] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103: warning: unused parameter \xe2\x80\x98size\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.306988] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[7.307131] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                ~~~~~~~^~~~\n'}
+[7.307286] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function \xe2\x80\x98virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)\xe2\x80\x99:\n'}
+[7.307459] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42: warning: unused parameter \xe2\x80\x98errMsg\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.307601] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[7.307741] (sllidar_ros2) StderrLine: {'line': b'      |                                      ~~~~^~~~~~\n'}
+[7.307878] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54: warning: unused parameter \xe2\x80\x98ansType\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.308014] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[7.308148] (sllidar_ros2) StderrLine: {'line': b'      |                                                  ~~~~^~~~~~~\n'}
+[7.308276] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75: warning: unused parameter \xe2\x80\x98payload\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.308456] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[7.308602] (sllidar_ros2) StderrLine: {'line': b'      |                                                               ~~~~~~~~~~~~^~~~~~~\n'}
+[7.308740] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91: warning: unused parameter \xe2\x80\x98size\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.308883] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[7.309025] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                    ~~~~~~~^~~~\n'}
+[7.321354] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40:\n'}
+[7.321678] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function \xe2\x80\x98virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)\xe2\x80\x99:\n'}
+[7.321876] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52: warning: unused parameter \xe2\x80\x98ansType\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.322047] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[7.322208] (sllidar_ros2) StderrLine: {'line': b'      |                                                ~~~~^~~~~~~\n'}
+[7.322681] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66: warning: unused parameter \xe2\x80\x98customCode\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.322842] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[7.322994] (sllidar_ros2) StderrLine: {'line': b'      |                                                             ~~~~~^~~~~~~~~~\n'}
+[7.323136] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90: warning: unused parameter \xe2\x80\x98data\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.323273] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[7.323431] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              ~~~~~~~~~~~~^~~~\n'}
+[7.323570] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103: warning: unused parameter \xe2\x80\x98size\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.323727] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[7.323856] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                ~~~~~~~^~~~\n'}
+[7.323975] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function \xe2\x80\x98virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)\xe2\x80\x99:\n'}
+[7.324101] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42: warning: unused parameter \xe2\x80\x98errMsg\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.324248] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[7.326559] (sllidar_ros2) StderrLine: {'line': b'      |                                      ~~~~^~~~~~\n'}
+[7.326730] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54: warning: unused parameter \xe2\x80\x98ansType\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.326871] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[7.327001] (sllidar_ros2) StderrLine: {'line': b'      |                                                  ~~~~^~~~~~~\n'}
+[7.327133] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75: warning: unused parameter \xe2\x80\x98payload\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.327270] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[7.327430] (sllidar_ros2) StderrLine: {'line': b'      |                                                               ~~~~~~~~~~~~^~~~~~~\n'}
+[7.327567] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91: warning: unused parameter \xe2\x80\x98size\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.327702] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[7.327834] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                    ~~~~~~~^~~~\n'}
+[7.372365] (-) TimerEvent: {}
+[7.472868] (-) TimerEvent: {}
+[7.571732] (sllidar_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[7.572971] (-) TimerEvent: {}
+[7.654067] (sllidar_ros2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[7.673093] (-) TimerEvent: {}
+[7.773510] (-) TimerEvent: {}
+[7.873906] (-) TimerEvent: {}
+[7.975512] (-) TimerEvent: {}
+[8.075885] (-) TimerEvent: {}
+[8.176333] (-) TimerEvent: {}
+[8.276732] (-) TimerEvent: {}
+[8.320488] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,\n'}
+[8.320740] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[8.320856] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[8.320988] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/hal/thread.cpp:35:\n'}
+[8.321105] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[8.321230] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[8.321383] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[8.321516] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,\n'}
+[8.321644] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[8.321772] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,\n'}
+[8.321902] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/hal/thread.cpp:35:\n'}
+[8.322030] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[8.325440] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[8.325664] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[8.376846] (-) TimerEvent: {}
+[8.412616] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/hal/thread.cpp:43:\n'}
+[8.413007] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp: In static member function \xe2\x80\x98static rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\xe2\x80\x99:\n'}
+[8.413320] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:52:57: warning: cast between incompatible function types from \xe2\x80\x98thread_proc_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int (*)(void*)\xe2\x80\x99} to \xe2\x80\x98void* (*)(void*)\xe2\x80\x99 [-Wcast-function-type]\n'}
+[8.413620] (sllidar_ros2) StderrLine: {'line': b'   52 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))proc, data);\n'}
+[8.413857] (sllidar_ros2) StderrLine: {'line': b'      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[8.415885] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp: In member function \xe2\x80\x98u_result rp::hal::Thread::join(long unsigned int)\xe2\x80\x99:\n'}
+[8.416221] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:176:37: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[8.417388] (sllidar_ros2) StderrLine: {'line': b'  176 | u_result Thread::join(unsigned long timeout)\n'}
+[8.417597] (sllidar_ros2) StderrLine: {'line': b'      |                       ~~~~~~~~~~~~~~^~~~~~~\n'}
+[8.476963] (-) TimerEvent: {}
+[8.578388] (-) TimerEvent: {}
+[8.583194] (sllidar_ros2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_async_transceiver.cpp.o\x1b[0m\n'}
+[8.678503] (-) TimerEvent: {}
+[8.778906] (-) TimerEvent: {}
+[8.814871] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,\n'}
+[8.815145] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,\n'}
+[8.815310] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar.h:36,\n'}
+[8.815469] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/src/sllidar_node.cpp:38:\n'}
+[8.815606] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[8.818498] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[8.818686] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[8.818935] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,\n'}
+[8.819079] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar.h:36,\n'}
+[8.819212] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/src/sllidar_node.cpp:38:\n'}
+[8.819363] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[8.819498] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[8.819623] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[8.879020] (-) TimerEvent: {}
+[8.943664] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,\n'}
+[8.943909] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[8.944047] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sdkcommon.h:49,\n'}
+[8.944199] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33:\n'}
+[8.944349] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[8.944618] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[8.944757] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[8.944889] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,\n'}
+[8.945020] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[8.945165] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sdkcommon.h:49,\n'}
+[8.947365] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33:\n'}
+[8.947647] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[8.947797] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[8.947932] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[8.979135] (-) TimerEvent: {}
+[9.079539] (-) TimerEvent: {}
+[9.179934] (-) TimerEvent: {}
+[9.283367] (-) TimerEvent: {}
+[9.331601] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98u_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)\xe2\x80\x99:\n'}
+[9.331945] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77: warning: unused parameter \xe2\x80\x98flag\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.332130] (sllidar_ros2) StderrLine: {'line': b'   67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, _u32 flag)\n'}
+[9.332300] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        ~~~~~^~~~\n'}
+[9.332510] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98u_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)\xe2\x80\x99:\n'}
+[9.332654] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.332789] (sllidar_ros2) StderrLine: {'line': b'  101 |     u_result RPlidarDriver::reset(_u32 timeout)\n'}
+[9.332922] (sllidar_ros2) StderrLine: {'line': b'      |                                   ~~~~~^~~~~~~\n'}
+[9.335160] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98u_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)\xe2\x80\x99:\n'}
+[9.335507] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:91: warning: unused parameter \xe2\x80\x98nodebuffer\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.335719] (sllidar_ros2) StderrLine: {'line': b'  180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, size_t & count)\n'}
+[9.335861] (sllidar_ros2) StderrLine: {'line': b'      |                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\n'}
+[9.335996] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:112: warning: unused parameter \xe2\x80\x98count\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.336130] (sllidar_ros2) StderrLine: {'line': b'  180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, size_t & count)\n'}
+[9.336262] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                       ~~~~~~~~~^~~~~\n'}
+[9.383482] (-) TimerEvent: {}
+[9.399994] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,\n'}
+[9.400273] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[9.400439] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sdkcommon.h:49,\n'}
+[9.400582] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35:\n'}
+[9.400719] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[9.400853] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[9.400984] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[9.404374] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,\n'}
+[9.404655] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[9.404822] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sdkcommon.h:49,\n'}
+[9.404961] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35:\n'}
+[9.405144] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[9.405300] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[9.405452] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[9.483598] (-) TimerEvent: {}
+[9.584029] (-) TimerEvent: {}
+[9.652089] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:44:\n'}
+[9.652485] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_async_transceiver.h: In member function \xe2\x80\x98virtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)\xe2\x80\x99:\n'}
+[9.652783] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48: warning: unused parameter \xe2\x80\x98errCode\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.654426] (sllidar_ros2) StderrLine: {'line': b'   90 |         virtual void   onChannelError(u_result errCode) {}\n'}
+[9.654681] (sllidar_ros2) StderrLine: {'line': b'      |                                       ~~~~~~~~~^~~~~~~\n'}
+[9.684149] (-) TimerEvent: {}
+[9.752397] (sllidar_ros2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o\x1b[0m\n'}
+[9.784272] (-) TimerEvent: {}
+[9.805319] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,\n'}
+[9.805579] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_crc.h:36,\n'}
+[9.805718] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_crc.cpp:33:\n'}
+[9.805857] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[9.806012] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[9.806143] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[9.806813] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_crc.h:36,\n'}
+[9.807018] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_crc.cpp:33:\n'}
+[9.807163] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[9.807314] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[9.807465] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[9.853373] (sllidar_ros2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o\x1b[0m\n'}
+[9.885370] (-) TimerEvent: {}
+[9.986375] (-) TimerEvent: {}
+[10.021885] (sllidar_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidarprotocol_codec.cpp.o\x1b[0m\n'}
+[10.086490] (-) TimerEvent: {}
+[10.186857] (-) TimerEvent: {}
+[10.289370] (-) TimerEvent: {}
+[10.389751] (-) TimerEvent: {}
+[10.490179] (-) TimerEvent: {}
+[10.591191] (-) TimerEvent: {}
+[10.691630] (-) TimerEvent: {}
+[10.787980] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,\n'}
+[10.788319] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[10.788530] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sdkcommon.h:49,\n'}
+[10.789444] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33:\n'}
+[10.789628] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[10.789750] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[10.789865] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[10.791345] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,\n'}
+[10.791577] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[10.791694] (-) TimerEvent: {}
+[10.792706] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sdkcommon.h:49,\n'}
+[10.792910] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33:\n'}
+[10.793031] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[10.793145] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[10.793255] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[10.898381] (-) TimerEvent: {}
+[10.998752] (-) TimerEvent: {}
+[11.013312] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,\n'}
+[11.013609] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[11.013759] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sdkcommon.h:49,\n'}
+[11.013923] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35:\n'}
+[11.014065] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[11.014221] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[11.014378] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[11.017365] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,\n'}
+[11.017649] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[11.017799] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sdkcommon.h:49,\n'}
+[11.017942] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35:\n'}
+[11.018080] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[11.018219] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[11.018383] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[11.098876] (-) TimerEvent: {}
+[11.199850] (-) TimerEvent: {}
+[11.300742] (-) TimerEvent: {}
+[11.311255] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:50:\n'}
+[11.311612] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function \xe2\x80\x98virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)\xe2\x80\x99:\n'}
+[11.311841] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52: warning: unused parameter \xe2\x80\x98ansType\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.312048] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[11.312258] (sllidar_ros2) StderrLine: {'line': b'      |                                                ~~~~^~~~~~~\n'}
+[11.312539] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66: warning: unused parameter \xe2\x80\x98customCode\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.312763] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[11.312974] (sllidar_ros2) StderrLine: {'line': b'      |                                                             ~~~~~^~~~~~~~~~\n'}
+[11.313388] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90: warning: unused parameter \xe2\x80\x98data\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.313567] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[11.313697] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              ~~~~~~~~~~~~^~~~\n'}
+[11.316366] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103: warning: unused parameter \xe2\x80\x98size\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.316628] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}\n'}
+[11.316762] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                ~~~~~~~^~~~\n'}
+[11.316889] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function \xe2\x80\x98virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)\xe2\x80\x99:\n'}
+[11.317019] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42: warning: unused parameter \xe2\x80\x98errMsg\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.317144] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[11.317263] (sllidar_ros2) StderrLine: {'line': b'      |                                      ~~~~^~~~~~\n'}
+[11.317407] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54: warning: unused parameter \xe2\x80\x98ansType\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.317552] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[11.317680] (sllidar_ros2) StderrLine: {'line': b'      |                                                  ~~~~^~~~~~~\n'}
+[11.317804] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75: warning: unused parameter \xe2\x80\x98payload\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.317940] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[11.318062] (sllidar_ros2) StderrLine: {'line': b'      |                                                               ~~~~~~~~~~~~^~~~~~~\n'}
+[11.318181] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91: warning: unused parameter \xe2\x80\x98size\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.318336] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}\n'}
+[11.318471] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                    ~~~~~~~^~~~\n'}
+[11.340460] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:51:\n'}
+[11.340720] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_async_transceiver.h: In member function \xe2\x80\x98virtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)\xe2\x80\x99:\n'}
+[11.340858] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48: warning: unused parameter \xe2\x80\x98errCode\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.341000] (sllidar_ros2) StderrLine: {'line': b'   90 |         virtual void   onChannelError(u_result errCode) {}\n'}
+[11.341126] (sllidar_ros2) StderrLine: {'line': b'      |                                       ~~~~~~~~~^~~~~~~\n'}
+[11.400855] (-) TimerEvent: {}
+[11.420455] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function \xe2\x80\x98virtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)\xe2\x80\x99:\n'}
+[11.423363] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:511:32: warning: unused parameter \xe2\x80\x98timeoutInMs\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.423611] (sllidar_ros2) StderrLine: {'line': b'  511 |         sl_result reset(sl_u32 timeoutInMs = DEFAULT_TIMEOUT)\n'}
+[11.423722] (sllidar_ros2) StderrLine: {'line': b'      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[11.429457] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function \xe2\x80\x98virtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)\xe2\x80\x99:\n'}
+[11.429780] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:586:69: warning: unused parameter \xe2\x80\x98options\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.429964] (sllidar_ros2) StderrLine: {'line': b'  586 |         sl_result startScan(bool force, bool useTypicalScan, sl_u32 options = 0, LidarScanMode* outUsedScanMode = nullptr)\n'}
+[11.431387] (sllidar_ros2) StderrLine: {'line': b'      |                                                              ~~~~~~~^~~~~~~~~~~\n'}
+[11.434963] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function \xe2\x80\x98virtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)\xe2\x80\x99:\n'}
+[11.435314] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:763:31: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.435559] (sllidar_ros2) StderrLine: {'line': b'  763 |         sl_result stop(sl_u32 timeout = DEFAULT_TIMEOUT)\n'}
+[11.435761] (sllidar_ros2) StderrLine: {'line': b'      |                        ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[11.441347] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function \xe2\x80\x98virtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)\xe2\x80\x99:\n'}
+[11.441582] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:880:110: warning: unused parameter \xe2\x80\x98nodes\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.441705] (sllidar_ros2) StderrLine: {'line': b'  880 |         sl_result getFrequency(const LidarScanMode& scanMode, const sl_lidar_response_measurement_node_hq_t* nodes, size_t count, float& frequency)\n'}
+[11.441834] (sllidar_ros2) StderrLine: {'line': b'      |                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\n'}
+[11.446370] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function \xe2\x80\x98virtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)\xe2\x80\x99:\n'}
+[11.446724] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1023:66: warning: unused parameter \xe2\x80\x98timeoutInMs\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.446978] (sllidar_ros2) StderrLine: {'line': b' 1023 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, sl_u32 timeoutInMs)\n'}
+[11.447220] (sllidar_ros2) StderrLine: {'line': b'      |                                                           ~~~~~~~^~~~~~~~~~~\n'}
+[11.451496] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function \xe2\x80\x98u_result sl::SlamtecLidarDriver::getScanModeCount(sl_u16&, sl_u32)\xe2\x80\x99:\n'}
+[11.452152] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1199:61: warning: unused parameter \xe2\x80\x98timeoutInMs\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.452477] (sllidar_ros2) StderrLine: {'line': b' 1199 |         u_result getScanModeCount(sl_u16& modeCount, sl_u32 timeoutInMs = DEFAULT_TIMEOUT)\n'}
+[11.452719] (sllidar_ros2) StderrLine: {'line': b'      |                                                      ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[11.500970] (-) TimerEvent: {}
+[11.510419] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:49:\n'}
+[11.510669] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_async_transceiver.h: In member function \xe2\x80\x98virtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)\xe2\x80\x99:\n'}
+[11.510813] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48: warning: unused parameter \xe2\x80\x98errCode\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.510947] (sllidar_ros2) StderrLine: {'line': b'   90 |         virtual void   onChannelError(u_result errCode) {}\n'}
+[11.511077] (sllidar_ros2) StderrLine: {'line': b'      |                                       ~~~~~~~~~^~~~~~~\n'}
+[11.551616] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of \xe2\x80\x98void sl::RawSampleNodeHolder<T>::pushNode(_u64, const T*) [with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int]\xe2\x80\x99:\n'}
+[11.552169] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1648:42:   required from here\n'}
+[11.552374] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:202:28: warning: unused parameter \xe2\x80\x98timestamp_uS\xe2\x80\x99 [-Wunused-parameter]\n'}
+[11.552526] (sllidar_ros2) StderrLine: {'line': b'  202 |         void pushNode(_u64 timestamp_uS, const T* node)\n'}
+[11.552654] (sllidar_ros2) StderrLine: {'line': b'      |                       ~~~~~^~~~~~~~~~~~\n'}
+[11.602375] (-) TimerEvent: {}
+[11.702754] (-) TimerEvent: {}
+[11.792448] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: At global scope:\n'}
+[11.792694] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:83:17: warning: \xe2\x80\x98void sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)\xe2\x80\x99 defined but not used [-Wunused-function]\n'}
+[11.793343] (sllidar_ros2) StderrLine: {'line': b'   83 |     static void convert(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)\n'}
+[11.793553] (sllidar_ros2) StderrLine: {'line': b'      |                 ^~~~~~~\n'}
+[11.793678] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:75:17: warning: \xe2\x80\x98void sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)\xe2\x80\x99 defined but not used [-Wunused-function]\n'}
+[11.793809] (sllidar_ros2) StderrLine: {'line': b'   75 |     static void convert(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)\n'}
+[11.793915] (sllidar_ros2) StderrLine: {'line': b'      |                 ^~~~~~~\n'}
+[11.796367] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:70:17: warning: \xe2\x80\x98void sl::printDeprecationWarn(const char*, const char*)\xe2\x80\x99 defined but not used [-Wunused-function]\n'}
+[11.796637] (sllidar_ros2) StderrLine: {'line': b'   70 |     static void printDeprecationWarn(const char* fn, const char* replacement)\n'}
+[11.796781] (sllidar_ros2) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~~~~~~~~\n'}
+[11.798560] (sllidar_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o\x1b[0m\n'}
+[11.803383] (-) TimerEvent: {}
+[11.906377] (-) TimerEvent: {}
+[12.006749] (-) TimerEvent: {}
+[12.107110] (-) TimerEvent: {}
+[12.207470] (-) TimerEvent: {}
+[12.309003] (-) TimerEvent: {}
+[12.411369] (-) TimerEvent: {}
+[12.511850] (-) TimerEvent: {}
+[12.518338] (sllidar_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o\x1b[0m\n'}
+[12.548846] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,\n'}
+[12.549118] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,\n'}
+[12.549262] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:\n'}
+[12.549409] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[12.549534] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[12.549650] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[12.549763] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,\n'}
+[12.549906] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:\n'}
+[12.550016] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[12.550136] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[12.550240] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[12.613524] (-) TimerEvent: {}
+[12.716380] (-) TimerEvent: {}
+[12.726074] (sllidar_ros2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o\x1b[0m\n'}
+[12.816491] (-) TimerEvent: {}
+[12.916884] (-) TimerEvent: {}
+[13.017356] (-) TimerEvent: {}
+[13.035638] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,\n'}
+[13.035894] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,\n'}
+[13.036035] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:\n'}
+[13.036187] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[13.036339] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[13.039336] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[13.040051] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,\n'}
+[13.040266] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:\n'}
+[13.040449] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[13.040600] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[13.040733] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[13.045260] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp: In member function \xe2\x80\x98void sl::TcpChannel::setStatus(_u32)\xe2\x80\x99:\n'}
+[13.045527] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:109:29: warning: unused parameter \xe2\x80\x98flag\xe2\x80\x99 [-Wunused-parameter]\n'}
+[13.045679] (sllidar_ros2) StderrLine: {'line': b'  109 |         void setStatus(_u32 flag){}\n'}
+[13.045816] (sllidar_ros2) StderrLine: {'line': b'      |                        ~~~~~^~~~\n'}
+[13.119368] (-) TimerEvent: {}
+[13.219810] (-) TimerEvent: {}
+[13.321008] (-) TimerEvent: {}
+[13.369958] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,\n'}
+[13.370246] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,\n'}
+[13.370651] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:\n'}
+[13.370813] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[13.370955] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[0];\n'}
+[13.371089] (sllidar_ros2) StderrLine: {'line': b'      |                ^\n'}
+[13.371229] (sllidar_ros2) StderrLine: {'line': b'In file included from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,\n'}
+[13.371404] (sllidar_ros2) StderrLine: {'line': b'                 from /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:\n'}
+[13.371548] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[13.371689] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[0];\n'}
+[13.371823] (sllidar_ros2) StderrLine: {'line': b'      |                    ^\n'}
+[13.379213] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp: In member function \xe2\x80\x98void sl::UdpChannel::setStatus(_u32)\xe2\x80\x99:\n'}
+[13.379565] (sllidar_ros2) StderrLine: {'line': b'/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:112:29: warning: unused parameter \xe2\x80\x98flag\xe2\x80\x99 [-Wunused-parameter]\n'}
+[13.379781] (sllidar_ros2) StderrLine: {'line': b'  112 |         void setStatus(_u32 flag){}\n'}
+[13.379956] (sllidar_ros2) StderrLine: {'line': b'      |                        ~~~~~^~~~\n'}
+[13.421126] (-) TimerEvent: {}
+[13.521566] (-) TimerEvent: {}
+[13.621919] (-) TimerEvent: {}
+[13.722900] (-) TimerEvent: {}
+[13.823959] (-) TimerEvent: {}
+[13.924366] (-) TimerEvent: {}
+[14.025518] (-) TimerEvent: {}
+[14.125866] (-) TimerEvent: {}
+[14.228384] (-) TimerEvent: {}
+[14.328797] (-) TimerEvent: {}
+[14.431393] (-) TimerEvent: {}
+[14.531754] (-) TimerEvent: {}
+[14.553689] (sllidar_ros2) StdoutLine: {'line': b'[ 95%] \x1b[1m\x1b[32mLinking CXX executable sllidar_node\x1b[0m\n'}
+[14.634768] (-) TimerEvent: {}
+[14.735205] (-) TimerEvent: {}
+[14.837456] (-) TimerEvent: {}
+[14.938380] (-) TimerEvent: {}
+[15.039104] (-) TimerEvent: {}
+[15.113333] (sllidar_ros2) StdoutLine: {'line': b'[ 95%] Built target sllidar_node\n'}
+[15.139214] (-) TimerEvent: {}
+[15.239564] (-) TimerEvent: {}
+[15.339912] (-) TimerEvent: {}
+[15.440224] (-) TimerEvent: {}
+[15.540901] (-) TimerEvent: {}
+[15.641234] (-) TimerEvent: {}
+[15.741600] (-) TimerEvent: {}
+[15.841892] (-) TimerEvent: {}
+[15.942161] (-) TimerEvent: {}
+[16.042449] (-) TimerEvent: {}
+[16.142737] (-) TimerEvent: {}
+[16.243026] (-) TimerEvent: {}
+[16.343333] (-) TimerEvent: {}
+[16.443623] (-) TimerEvent: {}
+[16.543908] (-) TimerEvent: {}
+[16.644229] (-) TimerEvent: {}
+[16.744603] (-) TimerEvent: {}
+[16.844916] (-) TimerEvent: {}
+[16.945225] (-) TimerEvent: {}
+[17.045545] (-) TimerEvent: {}
+[17.145839] (-) TimerEvent: {}
+[17.246146] (-) TimerEvent: {}
+[17.346491] (-) TimerEvent: {}
+[17.446830] (-) TimerEvent: {}
+[17.547153] (-) TimerEvent: {}
+[17.647454] (-) TimerEvent: {}
+[17.747733] (-) TimerEvent: {}
+[17.848024] (-) TimerEvent: {}
+[17.948344] (-) TimerEvent: {}
+[18.048653] (-) TimerEvent: {}
+[18.148961] (-) TimerEvent: {}
+[18.249241] (-) TimerEvent: {}
+[18.349538] (-) TimerEvent: {}
+[18.449804] (-) TimerEvent: {}
+[18.550067] (-) TimerEvent: {}
+[18.650345] (-) TimerEvent: {}
+[18.750637] (-) TimerEvent: {}
+[18.850918] (-) TimerEvent: {}
+[18.951238] (-) TimerEvent: {}
+[19.051641] (-) TimerEvent: {}
+[19.152130] (-) TimerEvent: {}
+[19.252421] (-) TimerEvent: {}
+[19.352710] (-) TimerEvent: {}
+[19.453003] (-) TimerEvent: {}
+[19.553320] (-) TimerEvent: {}
+[19.653627] (-) TimerEvent: {}
+[19.706700] (sllidar_ros2) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable sllidar_client\x1b[0m\n'}
+[19.753750] (-) TimerEvent: {}
+[19.854074] (-) TimerEvent: {}
+[19.954448] (-) TimerEvent: {}
+[20.054757] (-) TimerEvent: {}
+[20.155142] (-) TimerEvent: {}
+[20.255484] (-) TimerEvent: {}
+[20.285713] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[20.292786] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[20.293617] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[20.355603] (-) TimerEvent: {}
+[20.406021] (sllidar_ros2) Command: {'cmd': ['/home/charan/.local/bin/cmake', '--install', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/sllidar_ros2'], 'cwd': '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/sllidar_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/charan'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('C_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('LANGUAGE', 'en_IN:en'), ('USER', 'charan'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"53f8e2c5-ee3d-472a-9480-67ea11a14894","stepIndex":60,"toolCall":{"id":"toolu_vrtx_0184B7V8MenPzPsQf432FU93","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/charan/.gemini/antigravity-ide/scratch/ZMR_project \\\\u0026\\\\u0026 source /opt/ros/humble/setup.bash \\\\u0026\\\\u0026 colcon build --symlink-install --packages-select sllidar_ros2 2\\\\u003e\\\\u00261\\",\\"Cwd\\":\\"/home/charan/.gemini/antigravity-ide/scratch/ZMR_project\\",\\"WaitMsBeforeAsync\\":60000,\\"toolAction\\":\\"Building sllidar_ros2\\",\\"toolSummary\\":\\"Build new LiDAR driver\\"}","originalName":"run_command"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/home/charan/Downloads/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/home/charan/mujoco/mujoco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/charan'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-a9e30cac-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/charan/.local/share/applications/antigravity-ide.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1842'), ('SYSTEMD_EXEC_PID', '1989'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/charan/miniforge3'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2646'), ('CPLUS_INCLUDE_PATH', '/home/charan/mujoco/mujoco/include:/home/charan/mujoco/mujoco/include:'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'charan'), ('JOURNAL_STREAM', '8:15775'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'charan'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/home/charan/Downloads/Antigravity IDE/resources/app'), ('PATH', '/home/charan/.gemini/antigravity-ide/bin:/home/charan/.local/bin:/home/charan/bin:/home/charan/miniforge3/bin:/home/charan/miniforge3/condabin:/opt/ros/humble/bin:/home/charan/.local/bin:/home/charan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/charan/.local/bin'), ('SESSION_MANAGER', 'local/charan-Lenovo-Z50-70:@/tmp/.ICE-unix/1953,unix/charan-Lenovo-Z50-70:/tmp/.ICE-unix/1953'), ('INVOCATION_ID', '82de39ae38ac424f9ae24e2b5bf201c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('MUJOCO_DIR', '/home/charan/mujoco/mujoco'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('MAMBA_ROOT_PREFIX', '/home/charan/miniforge3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EDDPU3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/charan/miniforge3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/charan/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:36987'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('MAMBA_EXE', '/home/charan/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3802d24b-a860-4f3c-ae55-329f6325772d'), ('PWD', '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/charan/miniforge3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/charan/.config/Antigravity IDE/CachedData/4e2e10a9285aefbdcb898ae5e50dde45e9c7f505'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages:/home/charan/.local/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/charan/miniforge3'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', '66817ef9-5bec-46c7-8d0a-e8ec7c70fa70'), ('VSCODE_PID', '2646'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.455715] (-) TimerEvent: {}
+[20.504503] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.505171] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.506050] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[20.510826] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[20.514321] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[20.517933] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[20.521646] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[20.525699] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[20.529064] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[20.532397] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[20.535966] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[20.539646] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[20.543581] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[20.547299] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[20.551109] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[20.555061] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[20.555793] (-) TimerEvent: {}
+[20.559502] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[20.563151] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[20.566644] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[20.570632] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[20.574918] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[20.578492] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[20.582231] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[20.587508] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[20.593373] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[20.597930] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[20.604176] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[20.609027] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[20.613377] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[20.617362] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[20.621701] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[20.625780] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[20.629502] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[20.633412] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[20.637690] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[20.642040] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[20.645589] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[20.649557] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[20.653574] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[20.655899] (-) TimerEvent: {}
+[20.658012] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[20.661891] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[20.665934] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.670183] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.674585] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[20.678385] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[20.682067] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[20.688754] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[20.712715] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[20.723592] (-) EventReactorShutdown: {}

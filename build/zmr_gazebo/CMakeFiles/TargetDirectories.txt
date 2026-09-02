@@ -1,0 +1,9 @@
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo/CMakeFiles/uninstall.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo/CMakeFiles/zmr_gazebo_uninstall.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo/CMakeFiles/test.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo/CMakeFiles/edit_cache.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo/CMakeFiles/rebuild_cache.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo/CMakeFiles/list_install_components.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo/CMakeFiles/install.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo/CMakeFiles/install/local.dir
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo/CMakeFiles/install/strip.dir

@@ -1,0 +1,56 @@
+[0.017s] Invoking command in '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/charan/.local/bin/cmake /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/zmr_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup
+[0.183s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.183s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.183s]   CMake.
+[0.183s] 
+[0.183s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.183s]   to tell CMake that the project requires at least <min> but has been updated
+[0.183s]   to work with policies introduced by <max> or earlier.
+[0.183s] 
+[0.183s] 
+[0.338s] -- The C compiler identification is GNU 11.4.0
+[0.521s] -- The CXX compiler identification is GNU 11.4.0
+[0.543s] -- Detecting C compiler ABI info
+[0.634s] -- Detecting C compiler ABI info - done
+[0.660s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.660s] -- Detecting C compile features
+[0.661s] -- Detecting C compile features - done
+[0.682s] -- Detecting CXX compiler ABI info
+[0.773s] -- Detecting CXX compiler ABI info - done
+[0.798s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.799s] -- Detecting CXX compile features
+[0.800s] -- Detecting CXX compile features - done
+[0.813s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.976s] -- Found Python3: /home/charan/miniforge3/bin/python3 (found version "3.13.12") found components: Interpreter
+[1.088s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.339s] -- Configuring done (1.2s)
+[1.343s] -- Generating done (0.0s)
+[1.346s] -- Build files have been written to: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup
+[1.352s] Invoked command in '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/charan/.local/bin/cmake /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/zmr_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup
+[1.355s] Invoking command in '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/charan/.local/bin/cmake --build /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup -- -j4 -l4
+[1.468s] Invoked command in '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/charan/.local/bin/cmake --build /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup -- -j4 -l4
+[1.575s] Invoking command in '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/charan/.local/bin/cmake --install /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup
+[1.686s] -- Install configuration: ""
+[1.687s] -- Execute custom install script
+[1.687s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup//launch/lidar_launch.py
+[1.691s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup//launch/slam_launch.py
+[1.698s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup//launch/view_map_launch.py
+[1.702s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup//config/rviz_slam.rviz
+[1.707s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup//config/slam_toolbox_params.yaml
+[1.711s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup//maps/.gitkeep
+[1.715s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/ament_index/resource_index/package_run_dependencies/zmr_bringup
+[1.720s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/ament_index/resource_index/parent_prefix_path/zmr_bringup
+[1.725s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/environment/ament_prefix_path.sh
+[1.729s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/environment/ament_prefix_path.dsv
+[1.733s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/environment/path.sh
+[1.737s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/environment/path.dsv
+[1.741s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/local_setup.bash
+[1.745s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/local_setup.sh
+[1.749s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/local_setup.zsh
+[1.753s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/local_setup.dsv
+[1.757s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/package.dsv
+[1.762s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/ament_index/resource_index/packages/zmr_bringup
+[1.766s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/cmake/zmr_bringupConfig.cmake
+[1.770s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/cmake/zmr_bringupConfig-version.cmake
+[1.774s] -- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_bringup/share/zmr_bringup/package.xml
+[1.780s] Invoked command in '/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/charan/.local/bin/cmake --install /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_bringup
