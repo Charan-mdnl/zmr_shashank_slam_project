@@ -1,0 +1,39 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/charan/miniforge3/bin/python3 (found version "3.13.12") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/build/zmr_gazebo
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo//launch/slam_sim.launch.py
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo//worlds/zmr_test_world.world
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo//config/rviz_slam_sim.rviz
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo//config/slam_toolbox_sim.yaml
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/ament_index/resource_index/package_run_dependencies/zmr_gazebo
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/ament_index/resource_index/parent_prefix_path/zmr_gazebo
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/environment/path.sh
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/environment/path.dsv
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/local_setup.bash
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/local_setup.sh
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/local_setup.zsh
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/local_setup.dsv
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/package.dsv
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/ament_index/resource_index/packages/zmr_gazebo
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/cmake/zmr_gazeboConfig.cmake
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/cmake/zmr_gazeboConfig-version.cmake
+-- Symlinking: /home/charan/.gemini/antigravity-ide/scratch/ZMR_project/install/zmr_gazebo/share/zmr_gazebo/package.xml

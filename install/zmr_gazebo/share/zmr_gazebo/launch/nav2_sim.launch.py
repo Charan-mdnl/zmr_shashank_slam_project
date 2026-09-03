@@ -1,0 +1,1 @@
+/home/charan/.gemini/antigravity-ide/scratch/ZMR_project/src/zmr_gazebo/launch/nav2_sim.launch.py

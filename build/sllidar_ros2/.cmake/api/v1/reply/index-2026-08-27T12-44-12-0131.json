@@ -1,0 +1,54 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Unix Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "/home/charan/.local/lib/python3.10/site-packages/cmake/data/bin/cmake",
+			"cpack" : "/home/charan/.local/lib/python3.10/site-packages/cmake/data/bin/cpack",
+			"ctest" : "/home/charan/.local/lib/python3.10/site-packages/cmake/data/bin/ctest",
+			"root" : "/home/charan/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.1"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 4,
+			"minor" : 1,
+			"patch" : 3,
+			"string" : "4.1.3",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-6c749b380d58b81135cf.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 8
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-colcon-cmake" : 
+		{
+			"codemodel-v2" : 
+			{
+				"jsonFile" : "codemodel-v2-6c749b380d58b81135cf.json",
+				"kind" : "codemodel",
+				"version" : 
+				{
+					"major" : 2,
+					"minor" : 8
+				}
+			}
+		}
+	}
+}
