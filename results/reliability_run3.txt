@@ -1,0 +1,7 @@
+[waypoint_navigator]: reached waypoint 1/6 (+2.00, +11.50)  error 0.234 m
+[waypoint_navigator]: reached waypoint 2/6 (+10.50, +9.00)  error 0.231 m
+[waypoint_navigator]: reached waypoint 3/6 (+15.00, +5.50)  error 0.234 m
+[waypoint_navigator]: reached waypoint 4/6 (+21.00, +9.00)  error 0.244 m
+[waypoint_navigator]: reached waypoint 5/6 (+15.00, +12.50)  error 0.231 m
+[waypoint_navigator]: reached waypoint 6/6 (+2.50, +2.50)  error 0.236 m
+[waypoint_navigator]: all waypoints reached

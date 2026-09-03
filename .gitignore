@@ -1,0 +1,13 @@
+# colcon
+build/
+install/
+log/
+
+# python
+__pycache__/
+*.pyc
+
+# maps saved on the robot (results/ IS tracked - it is the verification evidence)
+src/zmr_bringup/maps/*.pgm
+src/zmr_bringup/maps/*.yaml
+src/zmr_bringup/maps/*.png

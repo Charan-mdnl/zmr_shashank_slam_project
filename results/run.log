@@ -1,0 +1,76 @@
+[INFO] [launch]: All log files can be found below /home/charan/.ros/log/2026-09-02-16-58-03-994470-charan-Lenovo-Z50-70-154290
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [sim_node-1]: process started with pid [154308]
+[INFO] [robot_state_publisher-2]: process started with pid [154310]
+[INFO] [async_slam_toolbox_node-3]: process started with pid [154312]
+[INFO] [obstacle_avoidance-4]: process started with pid [154314]
+[INFO] [waypoint_navigator-5]: process started with pid [154316]
+[INFO] [path_recorder-6]: process started with pid [154318]
+[robot_state_publisher-2] [INFO] [1788348484.280578175] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-2] [INFO] [1788348484.281580802] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1788348484.281620484] [robot_state_publisher]: got segment cad_base_link
+[robot_state_publisher-2] [INFO] [1788348484.281635011] [robot_state_publisher]: got segment caster_fl_swivel
+[robot_state_publisher-2] [INFO] [1788348484.281646901] [robot_state_publisher]: got segment caster_fl_wheel
+[robot_state_publisher-2] [INFO] [1788348484.281658196] [robot_state_publisher]: got segment caster_fr_swivel
+[robot_state_publisher-2] [INFO] [1788348484.281669101] [robot_state_publisher]: got segment caster_fr_wheel
+[robot_state_publisher-2] [INFO] [1788348484.281679732] [robot_state_publisher]: got segment caster_rl_swivel
+[robot_state_publisher-2] [INFO] [1788348484.281690303] [robot_state_publisher]: got segment caster_rl_wheel
+[robot_state_publisher-2] [INFO] [1788348484.281700777] [robot_state_publisher]: got segment caster_rr_swivel
+[robot_state_publisher-2] [INFO] [1788348484.281711270] [robot_state_publisher]: got segment caster_rr_wheel
+[robot_state_publisher-2] [INFO] [1788348484.281721699] [robot_state_publisher]: got segment left_wheel
+[robot_state_publisher-2] [INFO] [1788348484.281731960] [robot_state_publisher]: got segment lidar_link
+[robot_state_publisher-2] [INFO] [1788348484.281742838] [robot_state_publisher]: got segment right_wheel
+[async_slam_toolbox_node-3] [INFO] [1788348484.326613574] [slam_toolbox]: Node using stack size 40000000
+[async_slam_toolbox_node-3] [INFO] [1788348484.460322159] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-3] [INFO] [1788348484.463806849] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[waypoint_navigator-5] [INFO] [1788348485.175041354] [waypoint_navigator]: waypoint navigator up | 6 waypoint(s) | A* planner, robot_radius 0.65 m | autostart
+[waypoint_navigator-5] [INFO] [1788348485.175995160] [waypoint_navigator]:   1. (+2.00, +11.50)  heading any
+[waypoint_navigator-5] [INFO] [1788348485.176863047] [waypoint_navigator]:   2. (+10.50, +9.00)  heading any
+[waypoint_navigator-5] [INFO] [1788348485.177708904] [waypoint_navigator]:   3. (+15.00, +5.50)  heading any
+[waypoint_navigator-5] [INFO] [1788348485.178566742] [waypoint_navigator]:   4. (+21.00, +9.00)  heading 0 deg
+[waypoint_navigator-5] [INFO] [1788348485.179406399] [waypoint_navigator]:   5. (+15.00, +12.50)  heading any
+[waypoint_navigator-5] [INFO] [1788348485.180230252] [waypoint_navigator]:   6. (+2.50, +2.50)  heading 0 deg
+[obstacle_avoidance-4] [INFO] [1788348485.235534447] [obstacle_avoidance]: obstacle avoidance up | footprint 1.05x0.71 m +0.12 m margin | horizon 1.6 s
+[path_recorder-6] [INFO] [1788348485.283276201] [path_recorder]: recording path to /home/charan/Downloads/zmr_robot_vscode/zmr_shashank_slam_project/results/path.csv
+[sim_node-1] [INFO] [1788348485.394327134] [zmr_sim]: ZMR sim up | world: built-in "warehouse" (600x400 @ 0.05 m) | R=0.08 L=0.526 | lidar at base_link (-0.425, +0.000)
+[waypoint_navigator-5] [WARN] [1788348485.588196954] [waypoint_navigator]: no transform to base_link from "map" or "odom" yet
+[waypoint_navigator-5] [INFO] [1788348485.651883213] [waypoint_navigator]: localising against "odom"
+[waypoint_navigator-5] [INFO] [1788348485.652542203] [waypoint_navigator]: planned 1 points to waypoint 1 (+2.00, +11.50)
+[sim_node-1] [INFO] [1788348488.010631221] [zmr_sim]: lidar pose taken from TF: base_link -> lidar_link = (-0.425, +0.000) yaw -90.0 deg
+[async_slam_toolbox_node-3] [WARN] [1788348488.055073954] [slam_toolbox]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.2 m)
+[async_slam_toolbox_node-3] Registering sensor: [Custom Described Lidar]
+[waypoint_navigator-5] [INFO] [1788348489.169525117] [waypoint_navigator]: localising against "map"
+[path_recorder-6] [INFO] [1788348490.833716298] [path_recorder]: t=   5.0s  frame=map  pose=(+2.22, +3.23,  +94.8 deg)  travelled=0.81 m  slam_err=0.003 m
+[waypoint_navigator-5] /usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+[waypoint_navigator-5]   warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+[path_recorder-6] [INFO] [1788348496.746927383] [path_recorder]: t=  10.0s  frame=map  pose=(+2.14, +5.48,  +93.9 deg)  travelled=3.05 m  slam_err=0.011 m
+[path_recorder-6] [INFO] [1788348502.837275000] [path_recorder]: t=  15.0s  frame=map  pose=(+1.94, +7.73,  +94.4 deg)  travelled=5.30 m  slam_err=0.022 m
+[path_recorder-6] [INFO] [1788348509.457603027] [path_recorder]: t=  20.1s  frame=map  pose=(+1.91, +9.93,  +86.9 deg)  travelled=7.50 m  slam_err=0.028 m
+[waypoint_navigator-5] [INFO] [1788348514.138756018] [waypoint_navigator]: reached waypoint 1/6 (+2.00, +11.50)  error 0.242 m
+[waypoint_navigator-5] [INFO] [1788348514.862408337] [waypoint_navigator]: planned 15 points to waypoint 2 (+10.50, +9.00)
+[path_recorder-6] [INFO] [1788348515.287273383] [path_recorder]: t=  25.1s  frame=map  pose=(+1.99, +11.26,  +82.5 deg)  travelled=8.83 m  slam_err=0.035 m
+[path_recorder-6] [INFO] [1788348521.217537786] [path_recorder]: t=  30.1s  frame=map  pose=(+3.32, +10.97,   -6.8 deg)  travelled=10.20 m  slam_err=0.037 m
+[path_recorder-6] [INFO] [1788348527.138457214] [path_recorder]: t=  35.1s  frame=map  pose=(+5.56, +10.71,   -6.7 deg)  travelled=12.46 m  slam_err=0.045 m
+[path_recorder-6] [INFO] [1788348532.837146293] [path_recorder]: t=  40.1s  frame=map  pose=(+7.79, +10.44,   -6.5 deg)  travelled=14.70 m  slam_err=0.053 m
+[path_recorder-6] [INFO] [1788348538.657106821] [path_recorder]: t=  45.1s  frame=map  pose=(+9.81, +9.83,  -42.9 deg)  travelled=16.86 m  slam_err=0.062 m
+[waypoint_navigator-5] [INFO] [1788348542.167336978] [waypoint_navigator]: reached waypoint 2/6 (+10.50, +9.00)  error 0.238 m
+[waypoint_navigator-5] [INFO] [1788348542.240615277] [waypoint_navigator]: planned 2 points to waypoint 3 (+15.00, +5.50)
+[path_recorder-6] [INFO] [1788348544.366763697] [path_recorder]: t=  50.1s  frame=map  pose=(+10.82, +8.78,  -38.8 deg)  travelled=18.32 m  slam_err=0.069 m
+[path_recorder-6] [INFO] [1788348550.161381958] [path_recorder]: t=  55.1s  frame=map  pose=(+12.59, +7.38,  -38.0 deg)  travelled=20.57 m  slam_err=0.076 m
+[path_recorder-6] [INFO] [1788348556.007561033] [path_recorder]: t=  60.1s  frame=map  pose=(+14.34, +6.03,  -38.1 deg)  travelled=22.79 m  slam_err=0.102 m
+[waypoint_navigator-5] [INFO] [1788348558.697747938] [waypoint_navigator]: reached waypoint 3/6 (+15.00, +5.50)  error 0.233 m
+[waypoint_navigator-5] [INFO] [1788348558.998709845] [waypoint_navigator]: planned 6 points to waypoint 4 (+21.00, +9.00)
+[path_recorder-6] [INFO] [1788348561.686880795] [path_recorder]: t=  65.1s  frame=map  pose=(+15.02, +5.80,  +46.9 deg)  travelled=23.65 m  slam_err=0.101 m
+[path_recorder-6] [INFO] [1788348567.625064870] [path_recorder]: t=  70.1s  frame=map  pose=(+16.39, +7.59,  +53.5 deg)  travelled=25.91 m  slam_err=0.108 m
+[path_recorder-6] [INFO] [1788348573.617289913] [path_recorder]: t=  75.2s  frame=map  pose=(+17.62, +8.64,   +6.7 deg)  travelled=27.59 m  slam_err=0.127 m
+[path_recorder-6] [INFO] [1788348579.557070056] [path_recorder]: t=  80.2s  frame=map  pose=(+18.93, +8.78,   +6.0 deg)  travelled=28.91 m  slam_err=0.139 m
+[path_recorder-6] [INFO] [1788348585.697319923] [path_recorder]: t=  85.2s  frame=map  pose=(+20.75, +8.97,   +5.9 deg)  travelled=30.75 m  slam_err=0.151 m
+[waypoint_navigator-5] [INFO] [1788348585.867626909] [waypoint_navigator]: reached waypoint 4/6 (+21.00, +9.00)  error 0.250 m
+[waypoint_navigator-5] [INFO] [1788348586.058676193] [waypoint_navigator]: planned 11 points to waypoint 5 (+15.00, +12.50)
+[path_recorder-6] [INFO] [1788348591.167663982] [path_recorder]: t=  90.2s  frame=map  pose=(+20.20, +9.09, +173.8 deg)  travelled=31.32 m  slam_err=0.147 m
+[path_recorder-6] [INFO] [1788348596.827094728] [path_recorder]: t=  95.2s  frame=map  pose=(+17.99, +9.31, +164.6 deg)  travelled=33.54 m  slam_err=0.131 m
+[path_recorder-6] [INFO] [1788348602.407036655] [path_recorder]: t= 100.2s  frame=map  pose=(+16.89, +10.32, +131.0 deg)  travelled=35.06 m  slam_err=0.125 m
+[path_recorder-6] [INFO] [1788348608.227720041] [path_recorder]: t= 105.2s  frame=map  pose=(+15.47, +11.96, +130.9 deg)  travelled=37.22 m  slam_err=0.120 m
+[waypoint_navigator-5] [INFO] [1788348610.998158448] [waypoint_navigator]: reached waypoint 5/6 (+15.00, +12.50)  error 0.243 m
+[waypoint_navigator-5] [INFO] [1788348611.912757583] [waypoint_navigator]: planned 6 points to waypoint 6 (+2.50, +2.50)
+[path_recorder-6] [INFO] [1788348614.287314089] [path_recorder]: t= 110.2s  frame=map  pose=(+15.01, +12.25, -149.5 deg)  travelled=37.86 m  slam_err=0.117 m

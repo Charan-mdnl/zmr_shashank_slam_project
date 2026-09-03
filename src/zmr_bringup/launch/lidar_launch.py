@@ -18,7 +18,7 @@ def generate_launch_description():
     # ── Declare launch arguments ──
     serial_port_arg = DeclareLaunchArgument(
         'serial_port',
-        default_value='/dev/ttyUSB1',
+        default_value='/dev/rplidar',
         description='Serial port for the RPLidar A3M1 (use /dev/rplidar after udev rule installed)'
     )
 
@@ -30,8 +30,8 @@ def generate_launch_description():
 
     frame_id_arg = DeclareLaunchArgument(
         'frame_id',
-        default_value='laser',
-        description='TF frame ID for laser scans'
+        default_value='lidar_link',
+        description='TF frame for scans; must match the URDF lidar link'
     )
 
     scan_mode_arg = DeclareLaunchArgument(

@@ -7,7 +7,11 @@
  <joint name="base_footprint_to_base_link" type="fixed">
   <parent link="base_footprint" />
   <child link="base_link" />
-  <origin xyz="0 0 0" rpy="0 0 0" />
+  <!-- FIXED: drive wheel centre is at base_link z=+0.010 with radius 0.080,
+       so the ground plane is base_link z=-0.070. base_link therefore sits
+       0.070 m above base_footprint. Was "0 0 0", which put base_footprint
+       70 mm below the floor. -->
+  <origin xyz="0 0 0.070" rpy="0 0 0" />
  </joint>
  <joint name="base_to_cad_base" type="fixed">
   <parent link="base_link" />
@@ -106,7 +110,11 @@
   <origin xyz="0.618 0.49 0.01" rpy="-3.141592653589793 -1.5707963267948966 0" />
   <parent link="cad_base_link" />
   <child link="right_wheel" />
-  <axis xyz="0 0 1" />
+  <!-- FIXED: this joint frame is mirrored (roll=-pi), so axis "0 0 1"
+       resolved to -Y in base_link while the left wheel resolved to +Y.
+       diff_drive_controller requires both wheels to share a
+       positive-is-forward convention, so the axis is negated here. -->
+  <axis xyz="0 0 -1" />
  </joint>
  <link name="caster_fl_swivel">
   <inertial>

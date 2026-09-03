@@ -1,69 +1,60 @@
-"""
-View a previously saved map in RViz2.
+"""Render a saved map to PNG - the headless replacement for opening RViz.
 
-Usage:
+The previous version started nav2_map_server, nav2_lifecycle_manager and RViz.
+None of those are needed just to look at a map, and the nav2 packages are not
+part of this workspace, so the launch file could never run. This renders the
+map (and optionally a recorded path) to an image instead.
+
   ros2 launch zmr_bringup view_map_launch.py map:=my_map
-  ros2 launch zmr_bringup view_map_launch.py map:=/full/path/to/map.yaml
+  ros2 launch zmr_bringup view_map_launch.py \
+      map:=/abs/path/my_map.yaml path:=/tmp/zmr_path.csv out:=/tmp/map.png
 """
 
 import os
 
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
+from launch.actions import DeclareLaunchArgument, OpaqueFunction
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
 
-def generate_launch_description():
-
+def _resolve(context, *_args, **_kwargs):
     pkg_share = get_package_share_directory('zmr_bringup')
-    default_map_dir = os.path.join(pkg_share, 'maps')
-    rviz_config_file = os.path.join(pkg_share, 'config', 'rviz_slam.rviz')
+    map_arg = LaunchConfiguration('map').perform(context)
+    path_arg = LaunchConfiguration('path').perform(context)
+    out_arg = LaunchConfiguration('out').perform(context)
 
-    # ── Launch Arguments ──
-    map_arg = DeclareLaunchArgument(
-        'map',
-        default_value=os.path.join(default_map_dir, 'my_map.yaml'),
-        description='Full path to the map YAML file, or just the map name (without extension)'
-    )
+    map_yaml = map_arg
+    if not map_yaml.endswith('.yaml'):
+        map_yaml += '.yaml'
+    if not os.path.isabs(map_yaml):
+        map_yaml = os.path.join(pkg_share, 'maps', map_yaml)
 
-    # ── Map Server ──
-    map_server_node = Node(
-        package='nav2_map_server',
-        executable='map_server',
-        name='map_server',
+    if not out_arg:
+        out_arg = os.path.splitext(map_yaml)[0] + '.png'
+
+    argv = [map_yaml, out_arg]
+    if path_arg:
+        argv.append(path_arg)
+
+    return [Node(
+        package='zmr_tools',
+        executable='render_map',
+        name='render_map',
         output='screen',
-        parameters=[{
-            'yaml_filename': LaunchConfiguration('map'),
-            'use_sim_time': False,
-        }],
-    )
+        arguments=argv,
+    )]
 
-    # ── Lifecycle Manager to activate the map server ──
-    lifecycle_manager_node = Node(
-        package='nav2_lifecycle_manager',
-        executable='lifecycle_manager',
-        name='lifecycle_manager_map',
-        output='screen',
-        parameters=[{
-            'autostart': True,
-            'node_names': ['map_server'],
-        }],
-    )
 
-    # ── RViz2 ──
-    rviz_node = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen',
-        arguments=['-d', rviz_config_file],
-    )
-
+def generate_launch_description():
     return LaunchDescription([
-        map_arg,
-        map_server_node,
-        lifecycle_manager_node,
-        rviz_node,
+        DeclareLaunchArgument('map', default_value='my_map',
+                              description='map name in zmr_bringup/maps, or an '
+                                          'absolute path to a .yaml'),
+        DeclareLaunchArgument('path', default_value='',
+                              description='optional path CSV from path_recorder'),
+        DeclareLaunchArgument('out', default_value='',
+                              description='output PNG (defaults next to the map)'),
+        OpaqueFunction(function=_resolve),
     ])

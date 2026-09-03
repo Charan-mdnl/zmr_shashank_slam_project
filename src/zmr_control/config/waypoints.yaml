@@ -1,0 +1,13 @@
+# Waypoints for the built-in "warehouse" world (zmr_sim), in map metres.
+# The simulator starts its odom frame at the robot's true pose, so map, odom
+# and world coordinates all coincide and these are simply world positions.
+#
+# Chosen to clear the pillars at (3,9), (9,9), (15,9), (21,16) and the racks
+# at x 14.0-16.1. yaw is optional - omit it to arrive on any heading.
+waypoints:
+  - {x: 2.0,  y: 11.5}            # up the left-hand hall, clear of the pillar
+  - {x: 10.5, y: 9.0}             # through the middle corridor
+  - {x: 15.0, y: 5.5}             # centre aisle, below the pillar
+  - {x: 21.0, y: 9.0, yaw: 0.0}   # into the inner room via the 1.6 m doorway
+  - {x: 15.0, y: 12.5}            # back out
+  - {x: 2.5,  y: 2.5,  yaw: 0.0}  # home

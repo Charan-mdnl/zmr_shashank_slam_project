@@ -259,48 +259,69 @@
   <material>Gazebo/Blue</material>
  </gazebo>
 
+  <!-- ═══════════════════════════════════════════════════ -->
+ <!-- GAZEBO SIM (Harmonic / gz-sim 8) SYSTEM PLUGINS      -->
+ <!--                                                      -->
+ <!-- ROS 2 Jazzy ships Gazebo Sim, not Gazebo Classic, so  -->
+ <!-- the libgazebo_ros_*.so plugins this file used before  -->
+ <!-- do not exist and never loaded. These are the Gazebo   -->
+ <!-- Sim equivalents; ROS topics come from ros_gz_bridge   -->
+ <!-- (see launch/slam_sim.launch.py).                      -->
  <!-- ═══════════════════════════════════════════════════ -->
- <!-- DIFFERENTIAL DRIVE PLUGIN                           -->
- <!-- ═══════════════════════════════════════════════════ -->
+
  <gazebo>
-  <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+  <plugin filename="gz-sim-diff-drive-system"
+          name="gz::sim::systems::DiffDrive">
    <left_joint>left_wheel_joint</left_joint>
    <right_joint>right_wheel_joint</right_joint>
    <wheel_separation>0.526</wheel_separation>
-   <wheel_diameter>0.160</wheel_diameter>
-   <max_wheel_torque>20.0</max_wheel_torque>
-   <max_wheel_acceleration>1.0</max_wheel_acceleration>
-   <command_topic>cmd_vel</command_topic>
-   <odometry_topic>odom</odometry_topic>
-   <odometry_frame>odom</odometry_frame>
-   <robot_base_frame>base_footprint</robot_base_frame>
-   <publish_odom>true</publish_odom>
-   <publish_odom_tf>true</publish_odom_tf>
-   <publish_wheel_tf>true</publish_wheel_tf>
-   <update_rate>30.0</update_rate>
+   <wheel_radius>0.080</wheel_radius>
+   <max_linear_acceleration>0.6</max_linear_acceleration>
+   <topic>cmd_vel</topic>
+   <odom_topic>odom</odom_topic>
+   <tf_topic>tf</tf_topic>
+   <frame_id>odom</frame_id>
+   <child_frame_id>base_footprint</child_frame_id>
+   <odom_publish_frequency>30</odom_publish_frequency>
   </plugin>
  </gazebo>
 
- <!-- ═══════════════════════════════════════════════════ -->
- <!-- LIDAR SENSOR PLUGIN                                 -->
- <!-- ═══════════════════════════════════════════════════ -->
+ <gazebo>
+  <plugin filename="gz-sim-joint-state-publisher-system"
+          name="gz::sim::systems::JointStatePublisher">
+   <topic>joint_states</topic>
+   <joint_name>left_wheel_joint</joint_name>
+   <joint_name>right_wheel_joint</joint_name>
+  </plugin>
+ </gazebo>
+
+ <!-- RPLidar A3M1. gz-sim uses gpu_lidar; the sensor is rendered by the
+      gz-sim-sensors-system declared in the world file. -->
  <gazebo reference="lidar_link">
-  <sensor type="ray" name="rplidar">
+  <sensor name="rplidar" type="gpu_lidar">
    <pose>0 0 0 0 0 0</pose>
-   <visualize>true</visualize>
+   <topic>scan</topic>
+   <gz_frame_id>lidar_link</gz_frame_id>
    <update_rate>10</update_rate>
-   <ray>
+   <always_on>1</always_on>
+   <visualize>false</visualize>
+   <lidar>
     <scan>
      <horizontal>
-      <samples>360</samples>
+      <samples>720</samples>
       <resolution>1</resolution>
       <min_angle>-3.14159</min_angle>
       <max_angle>3.14159</max_angle>
      </horizontal>
+     <vertical>
+      <samples>1</samples>
+      <min_angle>0</min_angle>
+      <max_angle>0</max_angle>
+     </vertical>
     </scan>
     <range>
-     <min>0.15</min>
-     <max>12.0</max>
+     <min>0.20</min>
+     <max>25.0</max>
      <resolution>0.01</resolution>
     </range>
     <noise>
@@ -308,29 +329,8 @@
      <mean>0.0</mean>
      <stddev>0.01</stddev>
     </noise>
-   </ray>
-   <plugin name="gazebo_ros_lidar" filename="libgazebo_ros_ray_sensor.so">
-    <ros>
-     <remapping>~/out:=scan</remapping>
-    </ros>
-    <output_type>sensor_msgs/LaserScan</output_type>
-    <frame_name>lidar_link</frame_name>
-   </plugin>
+   </lidar>
   </sensor>
- </gazebo>
-
- <!-- ═══════════════════════════════════════════════════ -->
- <!-- JOINT STATE PUBLISHER PLUGIN                        -->
- <!-- ═══════════════════════════════════════════════════ -->
- <gazebo>
-  <plugin name="joint_state_pub" filename="libgazebo_ros_joint_state_publisher.so">
-   <ros>
-    <remapping>~/out:=joint_states</remapping>
-   </ros>
-   <update_rate>30</update_rate>
-   <joint_name>left_wheel_joint</joint_name>
-   <joint_name>right_wheel_joint</joint_name>
-  </plugin>
  </gazebo>
 
 </robot>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<package format="3">
+  <name>zmr_sim</name>
+  <version>1.0.0</version>
+  <description>
+    Dependency-free headless 2D simulator for the ZMR AMR. Integrates
+    differential-drive kinematics from /cmd_vel, ray-casts a 2D LiDAR against an
+    occupancy-grid world, and publishes /scan, /odom, /joint_states and TF -
+    exactly the interfaces the real robot exposes. No Gazebo, no GUI, no
+    rendering: it runs on a headless machine and in CI.
+  </description>
+  <maintainer email="charanmdnl7456@gmail.com">Charan</maintainer>
+  <license>Apache-2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>rosgraph_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>zmr_description</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

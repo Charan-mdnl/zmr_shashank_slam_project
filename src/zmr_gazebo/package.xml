@@ -10,20 +10,22 @@
 
   <!-- Our robot description package (for the URDF) -->
   <exec_depend>zmr_description</exec_depend>
+  <exec_depend>zmr_bringup</exec_depend>
 
   <!-- Gazebo simulator and its ROS 2 bridge -->
-  <exec_depend>gazebo_ros</exec_depend>
-  <exec_depend>gazebo_plugins</exec_depend>
+  <!-- Gazebo Sim (Harmonic). Not installed by ros-jazzy-desktop:
+       sudo apt install ros-jazzy-ros-gz -->
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
 
   <!-- For publishing the robot model to ROS from URDF -->
   <exec_depend>robot_state_publisher</exec_depend>
 
   <!-- SLAM and navigation -->
   <exec_depend>slam_toolbox</exec_depend>
-  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>zmr_tools</exec_depend>
 
   <!-- Visualization -->
-  <exec_depend>rviz2</exec_depend>
 
   <!-- Keyboard teleoperation (to drive the robot) -->
   <exec_depend>teleop_twist_keyboard</exec_depend>
